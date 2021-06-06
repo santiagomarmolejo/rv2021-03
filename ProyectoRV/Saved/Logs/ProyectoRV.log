@@ -6091,3 +6091,353 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.06-21.40.41:891][617]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 3.242ms to complete.
 [2021.06.06-21.41.04:255][727]LogSlate: Window 'Message Log' being destroyed
 [2021.06.06-21.41.04:270][727]LogSlate: Window 'Message Log' being destroyed
+[2021.06.06-21.43.18:201][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.06-21.43.18:211][800]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2021.06.06-21.43.18:477][800]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa4141CF0D47FEBF3F72C0E58BF107E25B.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.06-21.43.18:505][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.06-21.43.18:850][800]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa_BuiltData70758203471DF29E6C8357BF6E0DAAD1.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.06-21.43.18:873][800]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.06-21.43.18:874][800]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.06-21.43.18:874][800]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.06-21.43.32:574][225]LogTexture: Display: Building textures: T_GoodSky_SkyRing (AutoDXT, 256X256)
+[2021.06.06-21.43.32:574][225]LogTexture: Display: Building textures: T_GoodSky_Lightning (AutoDXT, 1024X1024)
+[2021.06.06-21.43.32:574][225]LogTexture: Display: Building textures: T_GoodSky_noise_smooth (AutoDXT, 512X512)
+[2021.06.06-21.43.32:574][225]LogTexture: Display: Building textures: T_GoodSky_clouds_D (AutoDXT, 2048X512)
+[2021.06.06-21.43.32:574][225]LogTexture: Display: Building textures: T_GoodSky_clouds_F (AutoDXT, 2048X512)
+[2021.06.06-21.43.35:662][225]LogTexture: Display: Building textures: T_GoodSky_clouds_C (AutoDXT, 2048X512)
+[2021.06.06-21.43.35:662][225]LogTexture: Display: Building textures: T_GoodSky_Moon (AutoDXT, 512X512)
+[2021.06.06-21.43.35:662][225]LogTexture: Display: Building textures: T_GoodSky_clouds_A (AutoDXT, 2048X512)
+[2021.06.06-21.43.35:663][225]LogTexture: Display: Building textures: T_GoodSky_clouds_E (AutoDXT, 2048X512)
+[2021.06.06-21.43.35:663][225]LogTexture: Display: Building textures: T_GoodSky_clouds_B (AutoDXT, 2048X512)
+[2021.06.06-21.43.35:663][225]LogTexture: Display: Building textures: T_GoodSky_clouds_sphere (AutoDXT, 2048X2048)
+[2021.06.06-21.43.35:663][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Moon, compiling. 
+[2021.06.06-21.43.35:673][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Moon, compiling. 
+[2021.06.06-21.43.35:687][225]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.06.06-21.43.35:688][225]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.06.06-21.43.35:688][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Storm, compiling. 
+[2021.06.06-21.43.35:703][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Storm, compiling. 
+[2021.06.06-21.43.35:779][225]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.06.06-21.43.35:779][225]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.06.06-21.43.35:779][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_SkyRing_, compiling. 
+[2021.06.06-21.43.35:849][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_SkyRing_, compiling. 
+[2021.06.06-21.43.35:913][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Sun_Emissive, compiling. 
+[2021.06.06-21.43.35:922][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Sun_Emissive, compiling. 
+[2021.06.06-21.43.35:962][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Sun_Stars, compiling. 
+[2021.06.06-21.43.35:978][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Sun_Stars, compiling. 
+[2021.06.06-21.43.36:017][225]LogStaticMesh: Building static mesh SM_GoodSky_StarMesh...
+[2021.06.06-21.43.36:098][225]LogStaticMesh: Built static mesh [0.08s] /Game/GoodSky/Source/ArrowTool/SM_GoodSky_StarMesh.SM_GoodSky_StarMesh
+[2021.06.06-21.43.36:187][225]LogStaticMesh: Building static mesh SM_GoodSky_Sphere...
+[2021.06.06-21.43.36:291][225]LogStaticMesh: Built static mesh [0.11s] /Game/GoodSky/Source/Mesh/SM_GoodSky_Sphere.SM_GoodSky_Sphere
+[2021.06.06-21.43.36:362][225]LogStaticMesh: Building static mesh SM_GoodSky_Hemisphere...
+[2021.06.06-21.43.36:436][225]LogStaticMesh: Built static mesh [0.07s] /Game/GoodSky/Source/Mesh/SM_GoodSky_Hemisphere.SM_GoodSky_Hemisphere
+[2021.06.06-21.43.36:463][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Sun_Stars_Moon, compiling. 
+[2021.06.06-21.43.36:483][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Sun_Stars_Moon, compiling. 
+[2021.06.06-21.43.36:500][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Base, compiling. 
+[2021.06.06-21.43.36:508][225]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Base, compiling. 
+[2021.06.06-21.43.37:216][237]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 56
+[2021.06.06-21.43.38:029][255]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 46
+[2021.06.06-21.43.39:128][278]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 36
+[2021.06.06-21.43.39:852][298]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 26
+[2021.06.06-21.43.41:469][348]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/GoodSky/Blueprint/BP_GoodSky.BP_GoodSky
+[2021.06.06-21.43.42:259][348]LogBlueprintEditor: Perf: 0.6 total seconds to load all 5 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2021.06.06-21.43.42:259][348]LogBlueprintEditor: Perf: 0.3 seconds loading: /Engine/ArtTools/RenderToTexture/Macros/RenderToTextureMacros
+[2021.06.06-21.43.43:218][348]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
+[2021.06.06-21.43.43:432][348]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2021.06.06-21.43.43:965][348]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0163 seconds. Added 126 classes and 0 folders.
+[2021.06.06-21.43.48:864][348]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2021.06.06-21.43.48:864][348]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2021.06.06-21.43.48:864][348]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.06.06-21.43.48:864][348]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.06.06-21.43.48:864][348]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.06.06-21.43.48:864][348]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.06.06-21.43.53:434][391]LogSlate: Took 0.025695 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.06.06-21.43.55:261][436]LogSlate: Window 'BP_GoodSky' being destroyed
+[2021.06.06-21.43.55:276][436]LogSlate: Window 'BP_GoodSky' being destroyed
+[2021.06.06-21.43.55:292][436]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-21.43.55:293][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-21.43.56:525][464]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.06-21.43.56:543][464]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.06-21.43.56:544][464]PIE: New page: PIE session: Casa (Jun 6, 2021, 11:43:56 AM)
+[2021.06.06-21.43.56:544][464]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Casa
+[2021.06.06-21.43.56:621][464]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077051s)
+[2021.06.06-21.43.56:623][464]LogAIModule: Creating AISystem for world Casa
+[2021.06.06-21.43.56:624][464]LogPlayLevel: PIE: World Init took: (0.002670s)
+[2021.06.06-21.43.56:624][464]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Casa.Casa to /Game/UEDPIE_0_Casa.Casa (0.080080s)
+[2021.06.06-21.43.56:689][464]LogUObjectHash: Compacting FUObjectHashTables data took   8.20ms
+[2021.06.06-21.43.56:712][464]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2021.06.06-21.43.56:712][464]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-21.43.56:712][464]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-21.43.56:712][464]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-21.43.56:712][464]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-21.43.56:712][464]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-21.43.56:713][464]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-21.43.56:713][464]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-21.43.56:713][464]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-21.43.56:713][464]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-21.43.56:713][464]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-21.43.56:722][464]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-21.43.56:722][464]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-21.43.56:763][464]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2021.06.06-21.43.56:764][464]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-21.43.56:764][464]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-21.43.56:764][464]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-21.43.56:766][464]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-21.43.56:766][464]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-21.43.56:766][464]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-21.43.56:821][464]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-21.43.56:821][464]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-21.43.56:821][464]LogInit: FAudioDevice initialized.
+[2021.06.06-21.43.56:821][464]LogAudio: Display: Audio Device (ID: 14) registered with world 'Casa'.
+[2021.06.06-21.43.56:842][464]LogLoad: Game class is 'GameModeBase'
+[2021.06.06-21.43.56:857][464]LogWorld: Bringing World /Game/UEDPIE_0_Casa.Casa up for play (max tick rate 0) at 2021.06.06-16.43.56
+[2021.06.06-21.43.56:858][464]LogWorld: Bringing up level for play took: 0.013785
+[2021.06.06-21.43.56:858][464]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.06.06-21.43.56:869][464]PIE: Server logged in
+[2021.06.06-21.43.56:872][464]PIE: Play in editor total start time 0.334 seconds.
+[2021.06.06-21.43.57:963][527]LogTemp: Warning: No footstep sound
+[2021.06.06-21.43.58:348][551]LogTemp: Warning: No footstep sound
+[2021.06.06-21.43.58:677][569]LogTemp: Warning: No footstep sound
+[2021.06.06-21.43.59:000][590]LogTemp: Warning: No footstep sound
+[2021.06.06-21.43.59:321][613]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.00:017][665]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.00:558][705]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.01:125][741]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.01:659][764]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.02:073][788]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.12:189][588]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.12:559][622]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.12:894][651]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.13:222][685]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.13:546][710]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.13:883][743]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.14:205][769]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.14:534][800]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.14:853][828]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.15:188][857]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.15:506][888]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.25:849][280]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.26:516][282]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.27:184][284]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.27:851][286]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.28:517][288]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.29:189][290]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.29:862][292]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.30:529][294]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.31:200][296]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.31:872][298]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.32:544][300]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.33:217][302]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.33:885][304]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.34:550][306]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.35:219][308]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.35:887][310]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.36:557][312]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.37:228][314]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.42:959][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-21.44.42:960][737]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Casa
+[2021.06.06-21.44.42:960][737]LogWorld: UWorld::CleanupWorld for Casa, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-21.44.42:962][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-21.44.42:980][737]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.06-21.44.43:023][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-21.44.43:056][737]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.06-21.44.43:059][737]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-21.44.43:061][737]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-21.44.43:116][737]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-21.44.43:125][737]LogUObjectHash: Compacting FUObjectHashTables data took   5.62ms
+[2021.06.06-21.44.43:201][738]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.06.06-21.44.44:371][784]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.06-21.44.44:389][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.06-21.44.44:389][784]PIE: New page: PIE session: Casa (Jun 6, 2021, 11:44:44 AM)
+[2021.06.06-21.44.44:390][784]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Casa
+[2021.06.06-21.44.44:444][784]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054330s)
+[2021.06.06-21.44.44:448][784]LogAIModule: Creating AISystem for world Casa
+[2021.06.06-21.44.44:449][784]LogPlayLevel: PIE: World Init took: (0.004370s)
+[2021.06.06-21.44.44:449][784]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Casa.Casa to /Game/UEDPIE_0_Casa.Casa (0.059200s)
+[2021.06.06-21.44.44:499][784]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2021.06.06-21.44.44:503][784]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2021.06.06-21.44.44:503][784]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-21.44.44:503][784]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-21.44.44:503][784]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-21.44.44:503][784]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-21.44.44:503][784]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-21.44.44:503][784]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-21.44.44:503][784]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-21.44.44:503][784]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-21.44.44:504][784]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-21.44.44:504][784]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-21.44.44:511][784]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-21.44.44:511][784]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-21.44.44:548][784]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2021.06.06-21.44.44:549][784]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-21.44.44:549][784]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-21.44.44:549][784]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-21.44.44:551][784]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-21.44.44:552][784]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-21.44.44:552][784]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-21.44.44:621][784]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-21.44.44:621][784]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-21.44.44:621][784]LogInit: FAudioDevice initialized.
+[2021.06.06-21.44.44:621][784]LogAudio: Display: Audio Device (ID: 15) registered with world 'Casa'.
+[2021.06.06-21.44.44:639][784]LogLoad: Game class is 'GameModeBase'
+[2021.06.06-21.44.44:651][784]LogWorld: Bringing World /Game/UEDPIE_0_Casa.Casa up for play (max tick rate 0) at 2021.06.06-16.44.44
+[2021.06.06-21.44.44:652][784]LogWorld: Bringing up level for play took: 0.010649
+[2021.06.06-21.44.44:652][784]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.06.06-21.44.44:662][784]PIE: Server logged in
+[2021.06.06-21.44.44:664][784]PIE: Play in editor total start time 0.281 seconds.
+[2021.06.06-21.44.45:798][861]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.46:205][888]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.46:527][924]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.46:849][961]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.47:173][997]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.47:500][ 32]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.47:832][ 55]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.48:161][ 78]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.48:480][102]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.48:806][137]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.49:562][171]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.50:117][186]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.50:665][201]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.51:230][215]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.51:803][230]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.52:330][241]LogTemp: Warning: No footstep sound
+[2021.06.06-21.44.53:338][267]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.28:921][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-21.46.28:921][963]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Casa
+[2021.06.06-21.46.28:922][963]LogWorld: UWorld::CleanupWorld for Casa, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-21.46.28:923][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-21.46.28:942][963]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.06-21.46.28:980][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-21.46.29:023][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-21.46.29:026][963]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-21.46.29:028][963]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-21.46.29:098][963]LogUObjectHash: Compacting FUObjectHashTables data took   5.22ms
+[2021.06.06-21.46.29:183][964]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.06.06-21.46.39:972][368]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.06-21.46.39:989][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.06-21.46.39:990][368]PIE: New page: PIE session: Casa (Jun 6, 2021, 11:46:39 AM)
+[2021.06.06-21.46.39:990][368]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Casa
+[2021.06.06-21.46.40:045][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055434s)
+[2021.06.06-21.46.40:047][368]LogAIModule: Creating AISystem for world Casa
+[2021.06.06-21.46.40:048][368]LogPlayLevel: PIE: World Init took: (0.002644s)
+[2021.06.06-21.46.40:048][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Casa.Casa to /Game/UEDPIE_0_Casa.Casa (0.058432s)
+[2021.06.06-21.46.40:109][368]LogUObjectHash: Compacting FUObjectHashTables data took   6.03ms
+[2021.06.06-21.46.40:114][368]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2021.06.06-21.46.40:115][368]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-21.46.40:115][368]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-21.46.40:115][368]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-21.46.40:115][368]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-21.46.40:115][368]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-21.46.40:115][368]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-21.46.40:115][368]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-21.46.40:115][368]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-21.46.40:117][368]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-21.46.40:117][368]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-21.46.40:127][368]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-21.46.40:127][368]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-21.46.40:173][368]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2021.06.06-21.46.40:174][368]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-21.46.40:174][368]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-21.46.40:174][368]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-21.46.40:176][368]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-21.46.40:176][368]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-21.46.40:176][368]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-21.46.40:228][368]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-21.46.40:228][368]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-21.46.40:228][368]LogInit: FAudioDevice initialized.
+[2021.06.06-21.46.40:228][368]LogAudio: Display: Audio Device (ID: 16) registered with world 'Casa'.
+[2021.06.06-21.46.40:249][368]LogLoad: Game class is 'GameModeBase'
+[2021.06.06-21.46.40:263][368]LogWorld: Bringing World /Game/UEDPIE_0_Casa.Casa up for play (max tick rate 60) at 2021.06.06-16.46.40
+[2021.06.06-21.46.40:264][368]LogWorld: Bringing up level for play took: 0.012954
+[2021.06.06-21.46.40:264][368]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.06.06-21.46.40:275][368]PIE: Server logged in
+[2021.06.06-21.46.40:277][368]PIE: Play in editor total start time 0.294 seconds.
+[2021.06.06-21.46.41:337][428]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.41:872][460]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.42:390][491]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.42:721][511]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.43:055][531]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.43:596][563]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.45:265][663]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.45:799][695]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.46:332][727]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.46:866][759]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.49:235][901]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.49:719][930]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.50:040][949]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.50:374][969]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.50:708][989]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.51:177][ 17]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.51:609][ 43]LogTemp: Warning: No footstep sound
+[2021.06.06-21.46.59:799][530]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.02:157][671]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.02:727][705]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.03:267][737]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.03:649][760]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.03:987][780]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.04:319][800]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.04:653][820]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.04:989][840]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.06:073][905]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.19:752][725]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.20:185][751]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.20:520][771]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.20:855][791]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.21:187][811]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.21:521][831]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.21:860][851]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.22:192][871]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.22:512][890]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.22:846][910]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.23:182][930]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.23:514][950]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.23:849][970]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.24:171][989]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.24:964][ 36]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.46:100][623]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.47:400][701]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.47:885][730]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.47:901][731]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.48:350][758]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.50:892][872]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.51:227][892]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.51:560][912]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.51:895][932]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.52:229][952]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.52:563][972]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.52:887][991]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.53:222][ 11]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.53:622][ 35]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.55:579][152]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.55:595][153]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.55:611][154]LogTemp: Warning: No footstep sound
+[2021.06.06-21.47.57:213][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-21.47.57:213][246]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Casa
+[2021.06.06-21.47.57:214][246]LogWorld: UWorld::CleanupWorld for Casa, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-21.47.57:216][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-21.47.57:232][246]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.06-21.47.57:260][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-21.47.57:298][246]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.06-21.47.57:299][246]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-21.47.57:301][246]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-21.47.57:361][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-21.47.57:371][246]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2021.06.06-21.47.57:468][247]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.06.06-21.47.58:335][288]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2021.06.06-21.47.59:912][358]Cmd: TRANSACTION UNDO
+[2021.06.06-21.47.59:912][358]LogEditorTransaction: Undo Create Actors
+[2021.06.06-21.48.02:533][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.06-21.48.02:575][431]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2021.06.06-21.48.02:889][431]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa3FE486504B6BD5F7C6211DADD9108675.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.06-21.48.02:916][431]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.06-21.48.03:247][431]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa_BuiltDataBFD543374F6FB53BA5B438AEAA56D4A7.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.06-21.48.03:277][431]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.06-21.48.03:277][431]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.06-21.48.03:278][431]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.06-21.48.46:617][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.06-21.48.46:653][202]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.06.06-21.48.46:922][202]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/CasaAD750D584D7F977583150EA6FDDCBDE4.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.06-21.48.46:951][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.06-21.48.47:288][202]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa_BuiltData0525282B4DEA686D3E71AFB0DDBF77CD.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.06-21.48.47:317][202]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.06-21.48.47:317][202]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.06-21.48.47:317][202]LogContentValidation: Display: Validating World /Game/Casa.Casa
