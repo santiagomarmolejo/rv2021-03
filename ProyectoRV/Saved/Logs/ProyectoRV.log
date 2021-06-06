@@ -6507,3 +6507,1217 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.06-21.51.34:709][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
 [2021.06.06-21.51.34:793][291]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
 [2021.06.06-21.51.34:879][292]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.06.06-21.54.13:275][989]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.06-21.54.13:292][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.06-21.54.13:292][989]PIE: New page: PIE session: Casa (Jun 6, 2021, 11:54:13 AM)
+[2021.06.06-21.54.13:292][989]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Casa
+[2021.06.06-21.54.13:359][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066641s)
+[2021.06.06-21.54.13:361][989]LogAIModule: Creating AISystem for world Casa
+[2021.06.06-21.54.13:362][989]LogPlayLevel: PIE: World Init took: (0.002687s)
+[2021.06.06-21.54.13:362][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Casa.Casa to /Game/UEDPIE_0_Casa.Casa (0.069675s)
+[2021.06.06-21.54.13:404][989]LogUObjectHash: Compacting FUObjectHashTables data took   5.51ms
+[2021.06.06-21.54.13:408][989]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.06.06-21.54.13:408][989]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-21.54.13:408][989]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-21.54.13:408][989]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-21.54.13:408][989]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-21.54.13:408][989]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-21.54.13:408][989]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-21.54.13:409][989]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-21.54.13:409][989]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-21.54.13:409][989]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-21.54.13:409][989]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-21.54.13:418][989]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-21.54.13:418][989]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-21.54.13:459][989]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2021.06.06-21.54.13:460][989]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-21.54.13:460][989]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-21.54.13:460][989]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-21.54.13:461][989]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-21.54.13:461][989]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-21.54.13:461][989]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-21.54.13:517][989]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-21.54.13:517][989]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-21.54.13:517][989]LogInit: FAudioDevice initialized.
+[2021.06.06-21.54.13:517][989]LogAudio: Display: Audio Device (ID: 18) registered with world 'Casa'.
+[2021.06.06-21.54.13:546][989]LogLoad: Game class is 'GameModeBase'
+[2021.06.06-21.54.13:560][989]LogWorld: Bringing World /Game/UEDPIE_0_Casa.Casa up for play (max tick rate 60) at 2021.06.06-16.54.13
+[2021.06.06-21.54.13:561][989]LogWorld: Bringing up level for play took: 0.012780
+[2021.06.06-21.54.13:562][989]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.06.06-21.54.13:573][989]PIE: Server logged in
+[2021.06.06-21.54.13:574][989]PIE: Play in editor total start time 0.287 seconds.
+[2021.06.06-21.54.16:022][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-21.54.16:022][126]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Casa
+[2021.06.06-21.54.16:022][126]LogWorld: UWorld::CleanupWorld for Casa, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-21.54.16:024][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-21.54.16:039][126]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.06-21.54.16:081][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-21.54.16:132][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-21.54.16:133][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-21.54.16:135][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-21.54.16:198][126]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2021.06.06-21.54.16:280][127]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.06.06-21.59.34:011][336]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.06.06-21.59.34:020][336]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Casa' took 0.062
+[2021.06.06-21.59.34:022][336]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objetos/lavaplatos/source/Lavello_con_miscelatore_MiscelatoreCurvo] ([1] browsable assets)...
+[2021.06.06-21.59.34:083][336]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Objetos/lavaplatos/source/Lavello_con_miscelatore_MiscelatoreCurvo.Lavello_con_miscelatore_MiscelatoreCurvo]
+[2021.06.06-21.59.34:083][336]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objetos/lavaplatos/source/Lavello_con_miscelatore_MiscelatoreCurvo]
+[2021.06.06-21.59.34:118][336]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Lavello_con_miscelatore_Miscelat57105D624C99F68CA8180FB472BBCC8A.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Autosaves/Game/Objetos/lavaplatos/source/Lavello_con_miscelatore_MiscelatoreCurvo_Auto7.uasset'
+[2021.06.06-21.59.34:127][336]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Objetos/lavaplatos/source/Lavello_con_miscelatore_LavaboVasca] ([1] browsable assets)...
+[2021.06.06-21.59.34:181][336]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Objetos/lavaplatos/source/Lavello_con_miscelatore_LavaboVasca.Lavello_con_miscelatore_LavaboVasca]
+[2021.06.06-21.59.34:182][336]OBJ SavePackage: Finished generating thumbnails for package [/Game/Objetos/lavaplatos/source/Lavello_con_miscelatore_LavaboVasca]
+[2021.06.06-21.59.34:212][336]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Lavello_con_miscelatore_LavaboVa18D8970F467D41E5B480748BE4E71635.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Autosaves/Game/Objetos/lavaplatos/source/Lavello_con_miscelatore_LavaboVasca_Auto7.uasset'
+[2021.06.06-21.59.34:216][336]LogFileHelpers: Auto-saving content packages took 0.197
+[2021.06.06-22.00.52:370][600]LogAssetTools: Warning: Failed to import 'C:\Users\narut\Downloads\j09-kitchen-island-3d-\source\J_09 KITCHEN ISLAND 3D [-].kmz'. Unknown extension 'kmz'.
+[2021.06.06-22.06.53:040][845]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\narut\Downloads\islacocina/source/Meja Makan.fbx)
+[2021.06.06-22.06.53:077][845]LogFbx: Loading FBX Scene from C:\Users\narut\Downloads\islacocina/source/Meja Makan.fbx
+[2021.06.06-22.06.53:126][845]LogFbx: FBX Scene Loaded Succesfully
+[2021.06.06-22.06.54:496][845]LogSlate: Window 'FBX Import Options' being destroyed
+[2021.06.06-22.06.54:548][845]LogMaterial: Display: Missing cached shader map for material Mat, compiling. 
+[2021.06.06-22.06.54:571][845]LogMaterial: Display: Missing cached shader map for material Mat, compiling. 
+[2021.06.06-22.06.54:586][845]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 20
+[2021.06.06-22.06.54:586][845]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2021.06.06-22.06.54:586][845]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.06.06-22.06.54:586][845]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.06.06-22.06.54:637][845]LogMaterial: Display: Missing cached shader map for material Mat_1, compiling. 
+[2021.06.06-22.06.54:671][845]LogMaterial: Display: Missing cached shader map for material Mat_1, compiling. 
+[2021.06.06-22.06.54:702][845]LogFbx: Display: Triangulating static mesh Table
+[2021.06.06-22.06.54:842][845]LogStaticMesh: Building static mesh Meja_Makan_Table...
+[2021.06.06-22.06.54:893][845]LogStaticMesh: Built static mesh [0.05s] /Game/Objetos/islacocina/source/Meja_Makan_Table.Meja_Makan_Table
+[2021.06.06-22.06.54:900][845]LogStaticMesh: Warning: Meja_Makan_Table has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2021.06.06-22.06.54:901][845]LogStaticMesh: Warning: Meja_Makan_Table has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2021.06.06-22.06.54:929][845]LogFbx: Display: Triangulating static mesh Chair_2
+[2021.06.06-22.06.55:059][845]LogStaticMesh: Building static mesh Meja_Makan_Chair_2...
+[2021.06.06-22.06.55:112][845]LogStaticMesh: Built static mesh [0.05s] /Game/Objetos/islacocina/source/Meja_Makan_Chair_2.Meja_Makan_Chair_2
+[2021.06.06-22.06.55:149][845]LogFbx: Display: Triangulating static mesh Leg_3
+[2021.06.06-22.06.55:198][845]LogStaticMesh: Building static mesh Meja_Makan_Leg_3...
+[2021.06.06-22.06.55:218][845]LogStaticMesh: Built static mesh [0.02s] /Game/Objetos/islacocina/source/Meja_Makan_Leg_3.Meja_Makan_Leg_3
+[2021.06.06-22.06.55:287][845]LogFbx: Display: Triangulating static mesh Leg_1_2
+[2021.06.06-22.06.55:334][845]LogStaticMesh: Building static mesh Meja_Makan_Leg_1_2...
+[2021.06.06-22.06.55:352][845]LogStaticMesh: Built static mesh [0.02s] /Game/Objetos/islacocina/source/Meja_Makan_Leg_1_2.Meja_Makan_Leg_1_2
+[2021.06.06-22.06.55:380][845]LogFbx: Display: Triangulating static mesh Chair_3
+[2021.06.06-22.06.55:523][845]LogStaticMesh: Building static mesh Meja_Makan_Chair_3...
+[2021.06.06-22.06.55:595][845]LogStaticMesh: Built static mesh [0.07s] /Game/Objetos/islacocina/source/Meja_Makan_Chair_3.Meja_Makan_Chair_3
+[2021.06.06-22.06.55:638][845]LogFbx: Display: Triangulating static mesh Leg_6
+[2021.06.06-22.06.55:706][845]LogStaticMesh: Building static mesh Meja_Makan_Leg_6...
+[2021.06.06-22.06.55:733][845]LogStaticMesh: Built static mesh [0.03s] /Game/Objetos/islacocina/source/Meja_Makan_Leg_6.Meja_Makan_Leg_6
+[2021.06.06-22.06.55:761][845]LogFbx: Display: Triangulating static mesh Leg_1_4
+[2021.06.06-22.06.55:816][845]LogStaticMesh: Building static mesh Meja_Makan_Leg_1_4...
+[2021.06.06-22.06.55:859][845]LogStaticMesh: Built static mesh [0.05s] /Game/Objetos/islacocina/source/Meja_Makan_Leg_1_4.Meja_Makan_Leg_1_4
+[2021.06.06-22.06.55:890][845]LogFbx: Display: Triangulating static mesh Chair_4
+[2021.06.06-22.06.56:063][845]LogStaticMesh: Building static mesh Meja_Makan_Chair_4...
+[2021.06.06-22.06.56:126][845]LogStaticMesh: Built static mesh [0.06s] /Game/Objetos/islacocina/source/Meja_Makan_Chair_4.Meja_Makan_Chair_4
+[2021.06.06-22.06.56:164][845]LogFbx: Display: Triangulating static mesh Leg_9
+[2021.06.06-22.06.56:216][845]LogStaticMesh: Building static mesh Meja_Makan_Leg_9...
+[2021.06.06-22.06.56:245][845]LogStaticMesh: Built static mesh [0.03s] /Game/Objetos/islacocina/source/Meja_Makan_Leg_9.Meja_Makan_Leg_9
+[2021.06.06-22.06.56:274][845]LogFbx: Display: Triangulating static mesh Leg_1_6
+[2021.06.06-22.06.56:327][845]LogStaticMesh: Building static mesh Meja_Makan_Leg_1_6...
+[2021.06.06-22.06.56:352][845]LogStaticMesh: Built static mesh [0.03s] /Game/Objetos/islacocina/source/Meja_Makan_Leg_1_6.Meja_Makan_Leg_1_6
+[2021.06.06-22.06.56:379][845]LogFbx: Display: Triangulating static mesh Cube_1_Cube_2
+[2021.06.06-22.06.56:555][845]LogStaticMesh: Building static mesh Meja_Makan_Cube_1_Cube_2...
+[2021.06.06-22.06.56:616][845]LogStaticMesh: Built static mesh [0.06s] /Game/Objetos/islacocina/source/Meja_Makan_Cube_1_Cube_2.Meja_Makan_Cube_1_Cube_2
+[2021.06.06-22.06.56:785][845]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2021.06.06-22.06.56:785][845]FBXImport: Warning: Meja_Makan_Table has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2021.06.06-22.06.56:785][845]FBXImport: Warning: Meja_Makan_Table has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2021.06.06-22.06.57:478][848]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 44
+[2021.06.06-22.06.59:955][915]LogSlate: Window 'Message Log' being destroyed
+[2021.06.06-22.07.00:005][915]LogSlate: Window 'Message Log' being destroyed
+[2021.06.06-22.07.01:254][963]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
+[2021.06.06-22.07.03:039][ 29]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2021.06.06-22.07.03:360][ 35]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2021.06.06-22.07.03:520][ 35]LogActorFactory: Actor Factory created Meja_Makan_Chair_2
+[2021.06.06-22.07.03:523][ 35]LogActorFactory: Actor Factory created Meja_Makan_Chair_3
+[2021.06.06-22.07.03:526][ 35]LogActorFactory: Actor Factory created Meja_Makan_Chair_4
+[2021.06.06-22.07.03:529][ 35]LogActorFactory: Actor Factory created Meja_Makan_Cube_1_Cube_2
+[2021.06.06-22.07.03:534][ 35]LogActorFactory: Actor Factory created Meja_Makan_Leg_3
+[2021.06.06-22.07.03:537][ 35]LogActorFactory: Actor Factory created Meja_Makan_Leg_6
+[2021.06.06-22.07.03:540][ 35]LogActorFactory: Actor Factory created Meja_Makan_Leg_9
+[2021.06.06-22.07.03:544][ 35]LogActorFactory: Actor Factory created Meja_Makan_Leg_1_2
+[2021.06.06-22.07.03:548][ 35]LogActorFactory: Actor Factory created Meja_Makan_Leg_1_4
+[2021.06.06-22.07.03:550][ 35]LogActorFactory: Actor Factory created Meja_Makan_Leg_1_6
+[2021.06.06-22.07.03:552][ 35]LogActorFactory: Actor Factory created Meja_Makan_Table
+[2021.06.06-22.07.05:794][ 88]LogActorFactory: Actor Factory created Meja_Makan_Chair_2
+[2021.06.06-22.07.05:838][ 88]LogActorFactory: Actor Factory created Meja_Makan_Chair_3
+[2021.06.06-22.07.05:882][ 88]LogActorFactory: Actor Factory created Meja_Makan_Chair_4
+[2021.06.06-22.07.05:937][ 88]LogActorFactory: Actor Factory created Meja_Makan_Cube_1_Cube_2
+[2021.06.06-22.07.05:976][ 88]LogActorFactory: Actor Factory created Meja_Makan_Leg_3
+[2021.06.06-22.07.06:014][ 88]LogActorFactory: Actor Factory created Meja_Makan_Leg_6
+[2021.06.06-22.07.06:047][ 88]LogActorFactory: Actor Factory created Meja_Makan_Leg_9
+[2021.06.06-22.07.06:086][ 88]LogActorFactory: Actor Factory created Meja_Makan_Leg_1_2
+[2021.06.06-22.07.06:127][ 88]LogActorFactory: Actor Factory created Meja_Makan_Leg_1_4
+[2021.06.06-22.07.06:171][ 88]LogActorFactory: Actor Factory created Meja_Makan_Leg_1_6
+[2021.06.06-22.07.06:209][ 88]LogActorFactory: Actor Factory created Meja_Makan_Table
+[2021.06.06-22.07.06:755][ 88]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2021.06.06-22.07.10:552][216]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2021.06.06-22.07.10:767][225]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.06.06-22.07.11:066][237]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.06.06-22.07.11:424][248]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.06.06-22.07.12:510][286]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.06.06-22.08.02:262][406]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Meja_Makan_Cube_1_Cube_2)
+[2021.06.06-22.08.03:160][437]Cmd: DELETE
+[2021.06.06-22.08.03:161][437]Cmd: ACTOR DELETE
+[2021.06.06-22.08.03:215][437]LogEditorActor: Deleted Actor: StaticMeshActor
+[2021.06.06-22.08.03:267][437]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
+[2021.06.06-22.08.03:290][437]LogEditorActor: Deleted 1 Actors (0.126 secs)
+[2021.06.06-22.08.10:781][723]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Meja_Makan_Table)
+[2021.06.06-22.08.25:843][253]EditorErrors: New page: Actor attachment
+[2021.06.06-22.08.38:380][838]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Meja_Makan_Table)
+[2021.06.06-22.08.46:719][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.06-22.08.46:745][277]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2021.06.06-22.08.46:965][277]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa793A564D4DAFF516D36DA696B1D386F3.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.06-22.08.46:994][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.06-22.08.47:220][277]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa_BuiltDataF4330F7A447DE72A4BFAFA9AEA524039.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.06-22.08.47:249][277]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.06-22.08.47:250][277]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.06-22.08.47:250][277]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.06-22.08.53:482][444]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.06.06-22.08.54:842][444]LogSlate: Window 'Delete Assets' being destroyed
+[2021.06.06-22.08.54:971][444]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Objetos/islacocina/source/Mat_1.Mat_1
+	Asset Name: /Game/Objetos/islacocina/source/Mat.Mat
+[2021.06.06-22.08.55:942][444]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.06.06-22.08.59:203][551]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2021.06.06-22.09.00:670][551]LogSlate: Window 'Save Content' being destroyed
+[2021.06.06-22.10.24:749][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.06-22.10.24:786][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2021.06.06-22.10.25:010][595]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/CasaB1EE93954313B29A06868E9C3EE9925B.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.06-22.10.25:033][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.06-22.10.25:240][595]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa_BuiltData276ABF4E403FAE6B28A27FB5BA072D10.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.06-22.10.25:266][595]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.06-22.10.25:266][595]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.06-22.10.25:266][595]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.06-22.10.40:087][212]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.06-22.10.40:103][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.06-22.10.40:103][212]PIE: New page: PIE session: Casa (Jun 6, 2021, 12:10:40 PM)
+[2021.06.06-22.10.40:112][212]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Casa
+[2021.06.06-22.10.40:178][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.065162s)
+[2021.06.06-22.10.40:181][212]LogAIModule: Creating AISystem for world Casa
+[2021.06.06-22.10.40:183][212]LogPlayLevel: PIE: World Init took: (0.004768s)
+[2021.06.06-22.10.40:183][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Casa.Casa to /Game/UEDPIE_0_Casa.Casa (0.070419s)
+[2021.06.06-22.10.40:227][212]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.06.06-22.10.40:235][212]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.06.06-22.10.40:235][212]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-22.10.40:235][212]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-22.10.40:235][212]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-22.10.40:235][212]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-22.10.40:235][212]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-22.10.40:235][212]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-22.10.40:235][212]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-22.10.40:236][212]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-22.10.40:237][212]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-22.10.40:237][212]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-22.10.40:245][212]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-22.10.40:245][212]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-22.10.40:283][212]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2021.06.06-22.10.40:284][212]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-22.10.40:285][212]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-22.10.40:285][212]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-22.10.40:287][212]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-22.10.40:287][212]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-22.10.40:287][212]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-22.10.40:346][212]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-22.10.40:346][212]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-22.10.40:346][212]LogInit: FAudioDevice initialized.
+[2021.06.06-22.10.40:346][212]LogAudio: Display: Audio Device (ID: 19) registered with world 'Casa'.
+[2021.06.06-22.10.40:371][212]LogLoad: Game class is 'GameModeBase'
+[2021.06.06-22.10.40:386][212]LogWorld: Bringing World /Game/UEDPIE_0_Casa.Casa up for play (max tick rate 60) at 2021.06.06-17.10.40
+[2021.06.06-22.10.40:387][212]LogWorld: Bringing up level for play took: 0.014265
+[2021.06.06-22.10.40:388][212]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.06.06-22.10.40:400][212]PIE: Server logged in
+[2021.06.06-22.10.40:402][212]PIE: Play in editor total start time 0.304 seconds.
+[2021.06.06-22.10.42:039][300]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.42:771][342]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.43:319][374]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.43:889][408]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.45:229][485]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.47:999][548]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.48:535][579]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.49:353][627]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.49:892][658]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.50:447][691]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.51:571][757]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.52:110][786]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.52:638][816]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.53:175][848]LogTemp: Warning: No footstep sound
+[2021.06.06-22.10.54:417][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-22.10.54:417][916]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Casa
+[2021.06.06-22.10.54:418][916]LogWorld: UWorld::CleanupWorld for Casa, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-22.10.54:420][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-22.10.54:439][916]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.06-22.10.54:490][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-22.10.54:533][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-22.10.54:535][916]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-22.10.54:537][916]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-22.10.54:580][916]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.06.06-22.10.54:639][917]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.06.06-22.11.01:975][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.06-22.11.02:014][228]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2021.06.06-22.11.02:302][228]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa7EF0E67D4DD00A9CCA6C8FBD98EAB25C.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.06-22.11.02:341][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.06-22.11.02:668][228]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa_BuiltData5539876946BDBC6D0EEBBC998BF7943F.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.06-22.11.02:707][228]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.06-22.11.02:708][228]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.06-22.11.02:708][228]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.06-22.11.04:479][282]MapCheck: New page: Map Check
+[2021.06.06-22.11.04:546][282]Cmd: MAP REBUILD ALLVISIBLE
+[2021.06.06-22.11.04:546][282]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.06.06-22.11.04:901][282]LogWorld: UWorld::CleanupWorld for Casa, bSessionEnded=true, bCleanupResources=false
+[2021.06.06-22.11.05:071][282]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.06.06-22.11.05:071][282]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.06.06-22.11.05:071][282]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.06.06-22.11.05:117][282]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.06.06-22.11.05:124][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:130][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:134][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.06.06-22.11.05:134][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.06.06-22.11.05:134][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:140][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. Is special engine material.
+[2021.06.06-22.11.05:199][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.06.06-22.11.05:199][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.06.06-22.11.05:199][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:206][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:212][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:218][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:235][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:241][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:247][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:253][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:259][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:265][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:270][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:277][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:283][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:289][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:296][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:301][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:307][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.05:312][282]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 86
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 85
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 84
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 83
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 82
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 81
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 80
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 79
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 78
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 77
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 76
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 75
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 74
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 73
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 72
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 71
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 70
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 69
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 68
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 67
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 66
+[2021.06.06-22.11.23:598][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 65
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 64
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 63
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 62
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 61
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 60
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 59
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 58
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 57
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 56
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 55
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 54
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 53
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 52
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 51
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 50
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 49
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 48
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 47
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 46
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 45
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 44
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 43
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 42
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 41
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 39
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 38
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 37
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 36
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 35
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+[2021.06.06-22.11.23:599][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 33
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 31
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 28
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 25
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2021.06.06-22.11.23:600][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 6
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.06.06-22.11.23:601][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.06.06-22.11.23:601][282]TextureStreamingBuild: Display: Compiling optional shaders took 18.474 seconds.
+[2021.06.06-22.11.23:642][282]LogLevel: Display: Export Material TexCoord Scales took 0.040 seconds.
+[2021.06.06-22.11.23:670][282]TextureStreamingBuild: Display: Build Texture Streaming took 0.028 seconds.
+[2021.06.06-22.11.23:697][282]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2021.06.06-22.11.23:703][282]LightingResults: New page: Lighting Build - Jun 6, 2021, 12:11:23 PM
+[2021.06.06-22.11.23:740][282]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.06.06-22.11.23:754][282]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.06.06-22.11.23:755][282]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.06.06-22.11.23:768][282]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.06.06-22.11.23:768][282]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14252
+[2021.06.06-22.11.32:911][282]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.06.06-22.11.32:915][282]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.06.06-22.11.32:915][282]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.06.06-22.11.32:915][282]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.06.06-22.11.32:915][282]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.06.06-22.11.32:915][282]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.06.06-22.11.33:459][282]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.06.06-22.11.33:459][282]MapCheck: New page: Casa - Jun 6, 2021, 12:11:33 PM
+[2021.06.06-22.11.33:468][282]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2021.06.06-22.11.33:469][282]MapCheck: Warning: 56051_Circle009_305 Static mesh actor has NULL StaticMesh property 
+[2021.06.06-22.11.33:471][282]MapCheck: Map check complete: 1 Error(s), 1 Warning(s), took 11.622ms to complete.
+[2021.06.06-22.11.33:477][282]LogEditorBuildUtils: Build time 0:28
+[2021.06.06-22.11.34:507][286]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2021.06.06-22.11.42:657][333]LightingResults: Warning: Meja_Makan_Table Object has overlapping UVs.
+[2021.06.06-22.11.42:657][333]LightingResults: Meja_Makan_Table Lightmap UV are overlapping by 1.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.06.06-22.11.42:982][334]LightingResults: Warning: Meja_Makan_Leg_3 Object has overlapping UVs.
+[2021.06.06-22.11.42:982][334]LightingResults: Meja_Makan_Leg_3 Lightmap UV are overlapping by 22.1%. Please adjust content - Enable Error Coloring to visualize.
+[2021.06.06-22.11.43:337][335]LightingResults: Warning: Meja_Makan_Leg_1_2 Object has overlapping UVs.
+[2021.06.06-22.11.43:337][335]LightingResults: Meja_Makan_Leg_1_2 Lightmap UV are overlapping by 22.1%. Please adjust content - Enable Error Coloring to visualize.
+[2021.06.06-22.11.43:670][336]LightingResults: Warning: Lavello_con_miscelatore_LavaboVasca Object has overlapping UVs.
+[2021.06.06-22.11.43:670][336]LightingResults: Lavello_con_miscelatore_LavaboVasca Lightmap UV are overlapping by 2.2%. Please adjust content - Enable Error Coloring to visualize.
+[2021.06.06-22.11.43:999][337]LightingResults: Warning: Meja_Makan_Leg_9 Object has overlapping UVs.
+[2021.06.06-22.11.43:999][337]LightingResults: Meja_Makan_Leg_9 Lightmap UV are overlapping by 22.1%. Please adjust content - Enable Error Coloring to visualize.
+[2021.06.06-22.11.44:142][340]LightingResults: Warning: Meja_Makan_Leg_6 Object has overlapping UVs.
+[2021.06.06-22.11.44:142][340]LightingResults: Meja_Makan_Leg_6 Lightmap UV are overlapping by 22.1%. Please adjust content - Enable Error Coloring to visualize.
+[2021.06.06-22.11.44:362][343]LightingResults: Warning: Meja_Makan_Leg_1_4 Object has overlapping UVs.
+[2021.06.06-22.11.44:417][344]LightingResults: Meja_Makan_Leg_1_4 Lightmap UV are overlapping by 22.1%. Please adjust content - Enable Error Coloring to visualize.
+[2021.06.06-22.11.44:911][352]LightingResults: Warning: temp_export_Mesh11 Object has overlapping UVs.
+[2021.06.06-22.11.44:911][352]LightingResults: temp_export_Mesh11 Lightmap UV are overlapping by 1.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.06.06-22.11.46:889][388]LightingResults: Warning: temp_export_Mesh8 Object has overlapping UVs.
+[2021.06.06-22.11.46:889][388]LightingResults: temp_export_Mesh8 Lightmap UV are overlapping by 1.8%. Please adjust content - Enable Error Coloring to visualize.
+[2021.06.06-22.11.47:373][399]LightingResults: Warning: Meja_Makan_Leg_1_6 Object has overlapping UVs.
+[2021.06.06-22.11.47:373][399]LightingResults: Meja_Makan_Leg_1_6 Lightmap UV are overlapping by 22.1%. Please adjust content - Enable Error Coloring to visualize.
+[2021.06.06-22.11.50:928][492]Job is a success!
+[2021.06.06-22.11.51:185][492]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.031s
+[2021.06.06-22.11.51:185][492]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.06.06-22.11.51:185][492]LogVolumetricLightmapImport:      BrickData (all levels) 0.3Mb
+[2021.06.06-22.11.51:186][492]LogVolumetricLightmapImport:      Bricks at depth
+[2021.06.06-22.11.51:186][492]LogVolumetricLightmapImport:          0: 1.4% covering 100.0% of volume
+[2021.06.06-22.11.51:186][492]LogVolumetricLightmapImport:          1: 5.8% covering 6.2% of volume
+[2021.06.06-22.11.51:186][492]LogVolumetricLightmapImport:          2: 92.8% covering 1.6% of volume
+[2021.06.06-22.11.51:186][492]LogVolumetricLightmapImport:      Bricks in each level
+[2021.06.06-22.11.51:186][492]LogVolumetricLightmapImport:          Casa 			 69 bricks 	 100.0% (Persistent Level)
+[2021.06.06-22.11.51:450][492]LightingResults: Warning: PointLight6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.06.06-22.11.51:451][492]LightingResults: Warning: PointLight7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.06.06-22.11.51:451][492]LightingResults: Warning: PointLight8 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.06.06-22.11.51:451][492]LightingResults: Warning: PointLight5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.06.06-22.11.51:451][492]LightingResults: Warning: PointLight_1 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2021.06.06-22.11.52:192][492]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2021.06.06-22.11.52:192][492]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2021.06.06-22.11.52:192][492]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2021.06.06-22.11.52:192][492]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2021.06.06-22.11.52:192][492]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2021.06.06-22.11.52:192][492]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2021.06.06-22.11.52:348][492]LogTexture: Display: Building textures: ShadowMapTexture2D_20 (G8, 32X32)
+[2021.06.06-22.11.52:348][492]LogTexture: Display: Building textures: ShadowMapTexture2D_19 (BGRA8, 1024X256)
+[2021.06.06-22.11.52:348][492]LogTexture: Display: Building textures: ShadowMapTexture2D_18 (BGRA8, 512X512)
+[2021.06.06-22.11.52:352][492]LogStaticLightingSystem: Casa_BuiltData storing lightmap data for 106 meshes in 4 LightmapResourceClusters (26.5 Meshes per cluster).
+[2021.06.06-22.11.52:405][492]Lightmass on LAPTOP-QPVICH1F: 15.9 sec total, 932 ms importing, 543 ms setup, 3.18 sec photons, 11.2 sec processing, 0 ms extra exporting [397/397 mappings]. Threads: 1:18 min total, 42.9 sec processing.
+[2021.06.06-22.11.52:410][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2021.06.06-22.11.52:497][492]LogStaticLightingSystem: Illumination: 28.6 sec (745 ms encoding lightmaps, 117 ms encoding shadowmaps)
+[2021.06.06-22.11.52:497][492]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (2.0 MB streaming, 2.0 MB non-streaming), 6 textures
+[2021.06.06-22.11.52:497][492]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (1.3 MB streaming, 1.3 MB non-streaming), 3 textures
+[2021.06.06-22.11.52:921][492]DumpUnbuiltLightIteractions
+[2021.06.06-22.11.52:921][492]Lights with unbuilt interactions: 0
+[2021.06.06-22.11.52:921][492]
+[2021.06.06-22.11.52:921][492]Primitives with unbuilt interactions: 0
+[2021.06.06-22.11.53:095][492]LogTexture: Display: Building textures: NewReflectionComponentTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2021.06.06-22.11.53:230][493]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.06.06-22.11.53:230][493]MapCheck: New page: Casa - Jun 6, 2021, 12:11:53 PM
+[2021.06.06-22.11.53:232][493]MapCheck: Warning: 56051_Circle009_305 Static mesh actor has NULL StaticMesh property 
+[2021.06.06-22.11.53:235][493]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 4.218ms to complete.
+[2021.06.06-22.11.55:249][552]LogSlate: Window 'Message Log' being destroyed
+[2021.06.06-22.11.55:280][552]LogSlate: Window 'Message Log' being destroyed
+[2021.06.06-22.11.56:508][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.06.06-22.11.57:745][609]LogSlate: Window 'Save Content' being destroyed
+[2021.06.06-22.11.57:934][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/_Color_M07_1B7AD01D243C12A7A9437FD8BC88A35CD.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/_Color_M07_1.uasset'
+[2021.06.06-22.11.58:030][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/American-Walnut258BB0AD46CB8BB63179D5A8096B3075.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/textures/American-Walnut.uasset'
+[2021.06.06-22.11.58:041][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/American-Walnut_MatD99D1E0349E9C0CCB401D4A6F1F9500B.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/textures/American-Walnut_Mat.uasset'
+[2021.06.06-22.11.58:793][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/black_basecolor7CAB223C4AC5CE91579823AD93077E03.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/textures/black_basecolor.uasset'
+[2021.06.06-22.11.58:803][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/black_basecolor_Mat0962CE3249A9A1796FF6509BB3CFDD99.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/textures/black_basecolor_Mat.uasset'
+[2021.06.06-22.11.58:818][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/buchset_artstation_prop_book_02_AFB6FD0444687E147481B091DA6005BF.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_book_02_inst_001.uasset'
+[2021.06.06-22.11.58:834][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/buchset_artstation_prop_book_03_6005DEDE42E015A4FF49F097C835A86D.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_book_03_inst_001.uasset'
+[2021.06.06-22.11.58:850][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/buchset_artstation_prop_book_03_4008139342C935D1968E5F9D67E8E038.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_book_03_inst_002.uasset'
+[2021.06.06-22.11.58:863][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/buchset_artstation_prop_book_04_A8D4743D49A4BED001D9B388D21EF2E4.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_book_04_inst_001.uasset'
+[2021.06.06-22.11.58:878][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/buchset_artstation_prop_books_011F10E4D342866200AB73E8B6D84BF4C1.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_books_01_inst_001.uasset'
+[2021.06.06-22.11.58:920][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/buchset_artstation_prop_books_02875CB57743240B89D35859B348BD6AD4.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_books_02_inst_001.uasset'
+[2021.06.06-22.11.58:938][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/buchset_artstation_prop_books_03AC4D6DF44A91B6C1FE5B258B197E52E2.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_books_03_inst_001.uasset'
+[2021.06.06-22.11.58:952][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/buchset_artstation_prop_books_04D0BFEF35482245FC4C557BBE30F4EBD4.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_books_04_inst_001.uasset'
+[2021.06.06-22.11.58:966][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/buchset_artstation_prop_books_05E67C91E14C41681D41A2B48EE3B22945.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_books_05_inst_001.uasset'
+[2021.06.06-22.11.58:970][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.06-22.11.59:002][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2021.06.06-22.11.59:233][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa6722D3CC4F808CD284B01283719AB97A.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.06-22.11.59:253][609]LogFileHelpers: Saving map 'Casa' took 0.284
+[2021.06.06-22.11.59:254][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.06-22.11.59:472][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa_BuiltDataC57386C24F2443BC02502DA0ED28E1DF.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.06-22.11.59:528][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Color_M092215247A46C19468C476DFAA9FAC947E.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/Color_M09.uasset'
+[2021.06.06-22.11.59:571][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objetos/nevera/source/dark" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/dark.uasset" SILENT=true
+[2021.06.06-22.11.59:584][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/dark1B4F57EC409FAD4B11CF26BBFEB5B404.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/dark.uasset'
+[2021.06.06-22.11.59:631][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objetos/nevera/source/gris" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/gris.uasset" SILENT=true
+[2021.06.06-22.11.59:643][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/grisC759482C40005619D6E1E3BFA9B8F717.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/gris.uasset'
+[2021.06.06-22.11.59:700][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/gris_claro66D8A93749B3FDCEE1D0EDAE016516B1.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/gris_claro.uasset'
+[2021.06.06-22.11.59:729][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Kitchen_Drawer022E6B5C084C769595D16DAC9CEFA885C2.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cabinetes/source/Kitchen_Drawer02.uasset'
+[2021.06.06-22.11.59:746][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Lavello_con_miscelatore_LavaboVaFDC0A52D4C7AE559E07D61BEB1694A8F.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/lavaplatos/source/Lavello_con_miscelatore_LavaboVasca.uasset'
+[2021.06.06-22.11.59:777][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Lavello_con_miscelatore_MiscelatEA609A4E4631C6E1739CA8B7E6DB3515.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/lavaplatos/source/Lavello_con_miscelatore_MiscelatoreCurvo.uasset'
+[2021.06.06-22.11.59:846][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Meja_Makan_Chair_2E38FC02342402549B6E322B97CE104F0.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/islacocina/source/Meja_Makan_Chair_2.uasset'
+[2021.06.06-22.11.59:911][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Meja_Makan_Chair_34463E72B48D9B6813BCF359F637E098C.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/islacocina/source/Meja_Makan_Chair_3.uasset'
+[2021.06.06-22.11.59:987][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Meja_Makan_Chair_4071E99ED4B3E3542BEEA069A83B87D06.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/islacocina/source/Meja_Makan_Chair_4.uasset'
+[2021.06.06-22.12.00:061][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Meja_Makan_Cube_1_Cube_285AD736E4EF1AB8D5D0879BA5F322B77.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/islacocina/source/Meja_Makan_Cube_1_Cube_2.uasset'
+[2021.06.06-22.12.00:123][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Meja_Makan_Leg_1_23B1690994CBB0DE883B58A9653B8B0E1.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/islacocina/source/Meja_Makan_Leg_1_2.uasset'
+[2021.06.06-22.12.00:189][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Meja_Makan_Leg_1_4A9CDB39947D3F4CFE4E43BBE0E12590B.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/islacocina/source/Meja_Makan_Leg_1_4.uasset'
+[2021.06.06-22.12.00:250][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Meja_Makan_Leg_1_6DD7E1A9E4B5A2507C06D2A9929D89133.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/islacocina/source/Meja_Makan_Leg_1_6.uasset'
+[2021.06.06-22.12.00:317][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Meja_Makan_Leg_3CEB30F4C44AACA1A0B25ECB14C6B3FFE.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/islacocina/source/Meja_Makan_Leg_3.uasset'
+[2021.06.06-22.12.00:383][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Meja_Makan_Leg_6454F9E1E4E9782C7D7FC50A8259D3F76.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/islacocina/source/Meja_Makan_Leg_6.uasset'
+[2021.06.06-22.12.00:442][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Meja_Makan_Leg_974667ADF4A3548F296420CBC0ED3CEE5.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/islacocina/source/Meja_Makan_Leg_9.uasset'
+[2021.06.06-22.12.00:502][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Meja_Makan_Table2EDD3EB04074BFB23E2860A388DD30FD.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/islacocina/source/Meja_Makan_Table.uasset'
+[2021.06.06-22.12.00:544][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Objetos/nevera/source/metal" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/metal.uasset" SILENT=true
+[2021.06.06-22.12.00:557][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/metal3C24CBC14DBBB8E4B08ADF97F81DAD68.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/metal.uasset'
+[2021.06.06-22.12.00:573][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_14616AA3F431B78C540B9599BE90FF521.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_1.uasset'
+[2021.06.06-22.12.00:586][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_1_26A4090104B890BC904907295C2E6715F.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_1_2.uasset'
+[2021.06.06-22.12.00:599][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_1_34C37205442F69B742868C1B4A3883D24.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_1_3.uasset'
+[2021.06.06-22.12.00:615][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_1_44F5D88AE4D128318A63AA2AF5F10DEE9.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_1_4.uasset'
+[2021.06.06-22.12.00:627][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_1_55B8FAA604C6C3C4B59A95CAC5663C226.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_1_5.uasset'
+[2021.06.06-22.12.00:640][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_1_64BC9E98A4C95B2831F94BD90041B8B7A.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_1_6.uasset'
+[2021.06.06-22.12.00:654][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_1_792CC69314910DB1D6D854280CB23C607.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_1_7.uasset'
+[2021.06.06-22.12.00:668][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_29C7D1F5B4B9CE7124C6EE8ADE6F3C42E.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_2.uasset'
+[2021.06.06-22.12.00:681][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_2_29D4773184CF87DD4E55ACB9AEDCF6A40.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_2_2.uasset'
+[2021.06.06-22.12.00:696][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_2_3A16DA28B41356CB8075F49ACB1CAF2A8.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_2_3.uasset'
+[2021.06.06-22.12.00:708][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_2_4AAEF78FF481EC7D0A6F76696B9FA4571.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_2_4.uasset'
+[2021.06.06-22.12.00:722][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_2_558A5A2CD47F7AD7E7351F497D31AF40E.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_2_5.uasset'
+[2021.06.06-22.12.00:734][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_2_666447A834584359E1D15C888E659D752.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_2_6.uasset'
+[2021.06.06-22.12.00:748][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cap_2_73579A6E044AA1F5A88819DA6196F7262.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cap_2_7.uasset'
+[2021.06.06-22.12.00:763][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cube779D25E34477F6005AED47B21BC69B4E.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cube.uasset'
+[2021.06.06-22.12.00:781][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cube_3080584A6423C960C17A7CCBDA8F2EB24.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cube_3.uasset'
+[2021.06.06-22.12.00:796][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cube_4416FBAB04AF3FC7FF8D1708F4E887337.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cube_4.uasset'
+[2021.06.06-22.12.00:808][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cube_510C13C2F4CB6BA3F52FF38B33819B4E8.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cube_5.uasset'
+[2021.06.06-22.12.00:821][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cube_67B6DF254425598E6702F1DAF68033011.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cube_6.uasset'
+[2021.06.06-22.12.00:833][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cube_7725046054AECA8F0DBBAAC954963876F.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cube_7.uasset'
+[2021.06.06-22.12.00:846][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cube_824AE99D54239E57A9FA9E29A61D2C023.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cube_8.uasset'
+[2021.06.06-22.12.00:859][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Cube_9E333D0314CB6996880D0B3873124E958.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Cube_9.uasset'
+[2021.06.06-22.12.00:875][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Sweep4B3AD57547287B2BCC028FBB6D5469AF.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Sweep.uasset'
+[2021.06.06-22.12.00:891][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Sweep_15CCCFD234953D12AE18887A18EBACDC7.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Sweep_1.uasset'
+[2021.06.06-22.12.00:905][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Sweep_2E415D3E3437CCF03E8336E8CF2D853DA.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Sweep_2.uasset'
+[2021.06.06-22.12.00:919][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Sweep_3A140E0E547A0253F4E51E4B813EE9570.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Sweep_3.uasset'
+[2021.06.06-22.12.00:932][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Sweep_4915C6E704B30E1C109AB79B09092B16F.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Sweep_4.uasset'
+[2021.06.06-22.12.00:948][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Sweep_5CA942BC849C0B08446BDA8A40A233DD0.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Sweep_5.uasset'
+[2021.06.06-22.12.00:965][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/plant_wall_Sweep_6F64F22FF4AA84CD11BD972A882460EFB.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cosaparedmadera/source/plant_wall_Sweep_6.uasset'
+[2021.06.06-22.12.01:160][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/prop_books_01_mt_Base_Color0BFE7CB344CD45FA2FDFFBBAC898BC9C.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/textures/prop_books_01_mt_Base_Color.uasset'
+[2021.06.06-22.12.01:347][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/prop_books_01_mt_Base_Color174E6E6C454A2EE250E35CA6B3276DA2.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/textures/prop_books_01_mt_Base_Color.uasset'
+[2021.06.06-22.12.01:399][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/prop_books_01_mt_Metallic860A30664FD097797A1E97BD5BF5487D.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/textures/prop_books_01_mt_Metallic.uasset'
+[2021.06.06-22.12.01:426][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/prop_books_01_mt_Metallic002B8F8A4072E764F127E8923FA53159.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/textures/prop_books_01_mt_Metallic.uasset'
+[2021.06.06-22.12.01:478][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/prop_books_01_mt_Mixed_AO0E336FE3444A2193E8072CB392A015D8.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/textures/prop_books_01_mt_Mixed_AO.uasset'
+[2021.06.06-22.12.01:589][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/prop_books_01_mt_Mixed_AO452C05014B8A8D2F89C60E886EB5C63E.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/textures/prop_books_01_mt_Mixed_AO.uasset'
+[2021.06.06-22.12.01:604][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/prop_books_01_mt_Mixed_AO_Mat14D4DDB144F4E6AE2EF7E08D98F42C7D.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/textures/prop_books_01_mt_Mixed_AO_Mat.uasset'
+[2021.06.06-22.12.01:616][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/prop_books_01_mt_Mixed_AO_Mat0006C0364EFA3C145108FBA40F5CCECF.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/textures/prop_books_01_mt_Mixed_AO_Mat.uasset'
+[2021.06.06-22.12.01:819][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/prop_books_01_mt_Normal_OpenGL692F547946AC5CF39A1B80BDB2571E21.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/textures/prop_books_01_mt_Normal_OpenGL.uasset'
+[2021.06.06-22.12.02:006][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/prop_books_01_mt_Normal_OpenGLB2977DBB4B564CCE3407E19C357ECB80.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/textures/prop_books_01_mt_Normal_OpenGL.uasset'
+[2021.06.06-22.12.02:068][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/prop_books_01_mt_RoughnessF07B710848DEDB54979C9B97B2FB2093.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/textures/prop_books_01_mt_Roughness.uasset'
+[2021.06.06-22.12.02:190][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/prop_books_01_mt_Roughness1434C7AF43AA40C6B69A7EB584310E27.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/vintage-books/source/buchset/buchset/textures/prop_books_01_mt_Roughness.uasset'
+[2021.06.06-22.12.02:203][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh139EA740A47C8F2A9E8310199A0EA7A0E.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh1.uasset'
+[2021.06.06-22.12.02:216][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh1053154EE04DA0BD383E2F4C898D0710F8.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh10.uasset'
+[2021.06.06-22.12.02:230][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh11DFAF517B402B3DEB4EED60AFAEE19C9D.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh11.uasset'
+[2021.06.06-22.12.02:244][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh1271CFC4204DA59069088192B6F2A72AFF.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh12.uasset'
+[2021.06.06-22.12.02:262][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh13EAD58FBF4A5618EB05B1D0B6A9AC4B60.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh13.uasset'
+[2021.06.06-22.12.02:275][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh14A7117F87415FC1CFAB026BBE3990B63B.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh14.uasset'
+[2021.06.06-22.12.02:287][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh157DFAC48B47AE367B2BB8559193E4A755.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh15.uasset'
+[2021.06.06-22.12.02:298][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh16C2CE8EFE4E7279E1B69C24AC1BE30606.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh16.uasset'
+[2021.06.06-22.12.02:310][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh1771CE6EF042334DA2549877B2DF6FE357.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh17.uasset'
+[2021.06.06-22.12.02:323][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh188FA5FC604763D8D62DCB36970E675330.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh18.uasset'
+[2021.06.06-22.12.02:337][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh19258F78F04344D9034B87758673161853.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh19.uasset'
+[2021.06.06-22.12.02:349][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh24FFAF45D4CF5ABD3E918B3B4EE34E407.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh2.uasset'
+[2021.06.06-22.12.02:362][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh208957C54D470E537C53680CA860A0CA05.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh20.uasset'
+[2021.06.06-22.12.02:373][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh212555133E42B998D4AA9FBEA4A7866EEA.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh21.uasset'
+[2021.06.06-22.12.02:387][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh22C167266A43A10945D5C9D7878DCE31B6.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh22.uasset'
+[2021.06.06-22.12.02:400][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh23B543739046FE83113DB70E8258E49445.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh23.uasset'
+[2021.06.06-22.12.02:413][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh242C2B3A0A46D6481FB25E35B0CF110C04.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh24.uasset'
+[2021.06.06-22.12.02:429][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh2517A89F4B456CFC926E850B973125C493.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh25.uasset'
+[2021.06.06-22.12.02:444][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh2613DEE63346D2CF9E8DEB39835FFEDFFC.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh26.uasset'
+[2021.06.06-22.12.02:464][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh380A9E1AD40E8A32242151586D279EBCC.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh3.uasset'
+[2021.06.06-22.12.02:495][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh43B7B3896422127FF57EBF8BD5C4C9142.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh4.uasset'
+[2021.06.06-22.12.02:510][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh5C9B5511249C704F384CBD5AFC2D77239.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh5.uasset'
+[2021.06.06-22.12.02:524][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh687E4AA044BE15874DE7D23BEE061F875.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh6.uasset'
+[2021.06.06-22.12.02:537][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh739719C43482CAA9EF4E922B832F93174.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh7.uasset'
+[2021.06.06-22.12.02:550][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh8330FB31146E217A52D737FB81458957D.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh8.uasset'
+[2021.06.06-22.12.02:561][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/temp_export_Mesh9D6E33F1E476941989E54458BB49A019B.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/nevera/source/temp_export_Mesh9.uasset'
+[2021.06.06-22.12.02:617][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/TexturesCom_Stone_SlabGranite_51DAFEF17F43B261030FACD1AED67B3BD8.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cabinetes/source/TexturesCom_Stone_SlabGranite_512_albedo.uasset'
+[2021.06.06-22.12.02:660][609]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/TexturesCom_Stone_SlabGranite_5135701D774D7AD7256E78E2B132357641.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Objetos/cabinetes/source/TexturesCom_Stone_SlabGranite_512_roughness.uasset'
+[2021.06.06-22.12.02:737][609]LogSlate: Window 'ProyectoRV - Unreal Editor' being destroyed
+[2021.06.06-22.12.02:739][609]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.06.06-22.12.03:461][609]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.06-22.12.03:462][609]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.06-22.12.03:462][609]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.06-22.12.03:462][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_2_7.plant_wall_Cap_2_7
+[2021.06.06-22.12.03:462][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_1_7.plant_wall_Cap_1_7
+[2021.06.06-22.12.03:462][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Sweep.plant_wall_Sweep
+[2021.06.06-22.12.03:462][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_2_6.plant_wall_Cap_2_6
+[2021.06.06-22.12.03:462][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_1_6.plant_wall_Cap_1_6
+[2021.06.06-22.12.03:462][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Sweep_1.plant_wall_Sweep_1
+[2021.06.06-22.12.03:462][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_2_5.plant_wall_Cap_2_5
+[2021.06.06-22.12.03:462][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_1_5.plant_wall_Cap_1_5
+[2021.06.06-22.12.03:462][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Sweep_2.plant_wall_Sweep_2
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/cosaparedmadera/textures/black_basecolor.black_basecolor
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/cosaparedmadera/textures/American-Walnut.American-Walnut
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_2_4.plant_wall_Cap_2_4
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_1_4.plant_wall_Cap_1_4
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Sweep_3.plant_wall_Sweep_3
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_2_3.plant_wall_Cap_2_3
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_1_3.plant_wall_Cap_1_3
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating Material /Game/Objetos/nevera/source/dark.dark
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating Material /Game/Objetos/nevera/source/Color_M09.Color_M09
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Sweep_4.plant_wall_Sweep_4
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating Material /Game/Objetos/nevera/source/_Color_M07_1._Color_M07_1
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh26.temp_export_Mesh26
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh25.temp_export_Mesh25
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_2_2.plant_wall_Cap_2_2
+[2021.06.06-22.12.03:463][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh24.temp_export_Mesh24
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh23.temp_export_Mesh23
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh22.temp_export_Mesh22
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_1_2.plant_wall_Cap_1_2
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh21.temp_export_Mesh21
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Sweep_5.plant_wall_Sweep_5
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh20.temp_export_Mesh20
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh19.temp_export_Mesh19
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/lavaplatos/source/Lavello_con_miscelatore_MiscelatoreCurvo.Lavello_con_miscelatore_MiscelatoreCurvo
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_2.plant_wall_Cap_2
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh18.temp_export_Mesh18
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cap_1.plant_wall_Cap_1
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/lavaplatos/source/Lavello_con_miscelatore_LavaboVasca.Lavello_con_miscelatore_LavaboVasca
+[2021.06.06-22.12.03:464][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Sweep_6.plant_wall_Sweep_6
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating Material /Game/Objetos/vintage-books/textures/prop_books_01_mt_Mixed_AO_Mat.prop_books_01_mt_Mixed_AO_Mat
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cube_9.plant_wall_Cube_9
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating Material /Game/Objetos/vintage-books/source/buchset/buchset/textures/prop_books_01_mt_Mixed_AO_Mat.prop_books_01_mt_Mixed_AO_Mat
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cube_8.plant_wall_Cube_8
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh17.temp_export_Mesh17
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cube_7.plant_wall_Cube_7
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cabinetes/source/Kitchen_Drawer02.Kitchen_Drawer02
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh16.temp_export_Mesh16
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cube_6.plant_wall_Cube_6
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh15.temp_export_Mesh15
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cube_4.plant_wall_Cube_4
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh14.temp_export_Mesh14
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh13.temp_export_Mesh13
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cube_3.plant_wall_Cube_3
+[2021.06.06-22.12.03:465][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cube.plant_wall_Cube
+[2021.06.06-22.12.03:466][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh12.temp_export_Mesh12
+[2021.06.06-22.12.03:466][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/cabinetes/source/TexturesCom_Stone_SlabGranite_512_albedo.TexturesCom_Stone_SlabGranite_512_albedo
+[2021.06.06-22.12.03:466][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/cabinetes/source/TexturesCom_Stone_SlabGranite_512_roughness.TexturesCom_Stone_SlabGranite_512_roughness
+[2021.06.06-22.12.03:466][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh11.temp_export_Mesh11
+[2021.06.06-22.12.03:466][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh10.temp_export_Mesh10
+[2021.06.06-22.12.03:466][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh9.temp_export_Mesh9
+[2021.06.06-22.12.03:466][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/cosaparedmadera/source/plant_wall_Cube_5.plant_wall_Cube_5
+[2021.06.06-22.12.03:466][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh8.temp_export_Mesh8
+[2021.06.06-22.12.03:466][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh7.temp_export_Mesh7
+[2021.06.06-22.12.03:466][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh6.temp_export_Mesh6
+[2021.06.06-22.12.03:466][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh5.temp_export_Mesh5
+[2021.06.06-22.12.03:467][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh4.temp_export_Mesh4
+[2021.06.06-22.12.03:467][609]LogContentValidation: Display: Validating Material /Game/Objetos/nevera/source/metal.metal
+[2021.06.06-22.12.03:467][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh3.temp_export_Mesh3
+[2021.06.06-22.12.03:467][609]LogContentValidation: Display: Validating Material /Game/Objetos/nevera/source/gris.gris
+[2021.06.06-22.12.03:467][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh2.temp_export_Mesh2
+[2021.06.06-22.12.03:467][609]LogContentValidation: Display: Validating Material /Game/Objetos/nevera/source/gris_claro.gris_claro
+[2021.06.06-22.12.03:467][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/nevera/source/temp_export_Mesh1.temp_export_Mesh1
+[2021.06.06-22.12.03:467][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/vintage-books/textures/prop_books_01_mt_Roughness.prop_books_01_mt_Roughness
+[2021.06.06-22.12.03:467][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/vintage-books/textures/prop_books_01_mt_Normal_OpenGL.prop_books_01_mt_Normal_OpenGL
+[2021.06.06-22.12.03:467][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/vintage-books/textures/prop_books_01_mt_Mixed_AO.prop_books_01_mt_Mixed_AO
+[2021.06.06-22.12.03:467][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/vintage-books/textures/prop_books_01_mt_Metallic.prop_books_01_mt_Metallic
+[2021.06.06-22.12.03:468][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/vintage-books/textures/prop_books_01_mt_Base_Color.prop_books_01_mt_Base_Color
+[2021.06.06-22.12.03:468][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/vintage-books/source/buchset/buchset/textures/prop_books_01_mt_Roughness.prop_books_01_mt_Roughness
+[2021.06.06-22.12.03:468][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/vintage-books/source/buchset/buchset/textures/prop_books_01_mt_Normal_OpenGL.prop_books_01_mt_Normal_OpenGL
+[2021.06.06-22.12.03:468][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/vintage-books/source/buchset/buchset/textures/prop_books_01_mt_Mixed_AO.prop_books_01_mt_Mixed_AO
+[2021.06.06-22.12.03:468][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/vintage-books/source/buchset/buchset/textures/prop_books_01_mt_Metallic.prop_books_01_mt_Metallic
+[2021.06.06-22.12.03:468][609]LogContentValidation: Display: Validating Texture2D /Game/Objetos/vintage-books/source/buchset/buchset/textures/prop_books_01_mt_Base_Color.prop_books_01_mt_Base_Color
+[2021.06.06-22.12.03:468][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_books_05_inst_001.buchset_artstation_prop_books_05_inst_001
+[2021.06.06-22.12.03:468][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_books_04_inst_001.buchset_artstation_prop_books_04_inst_001
+[2021.06.06-22.12.03:468][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_books_01_inst_001.buchset_artstation_prop_books_01_inst_001
+[2021.06.06-22.12.03:469][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_books_02_inst_001.buchset_artstation_prop_books_02_inst_001
+[2021.06.06-22.12.03:469][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_books_03_inst_001.buchset_artstation_prop_books_03_inst_001
+[2021.06.06-22.12.03:469][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_book_03_inst_001.buchset_artstation_prop_book_03_inst_001
+[2021.06.06-22.12.03:469][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_book_04_inst_001.buchset_artstation_prop_book_04_inst_001
+[2021.06.06-22.12.03:469][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_book_03_inst_002.buchset_artstation_prop_book_03_inst_002
+[2021.06.06-22.12.03:469][609]LogContentValidation: Display: Validating Material /Game/Objetos/cosaparedmadera/textures/black_basecolor_Mat.black_basecolor_Mat
+[2021.06.06-22.12.03:469][609]LogContentValidation: Display: Validating Material /Game/Objetos/cosaparedmadera/textures/American-Walnut_Mat.American-Walnut_Mat
+[2021.06.06-22.12.03:470][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/vintage-books/source/buchset/buchset/buchset_artstation_prop_book_02_inst_001.buchset_artstation_prop_book_02_inst_001
+[2021.06.06-22.12.03:470][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/islacocina/source/Meja_Makan_Cube_1_Cube_2.Meja_Makan_Cube_1_Cube_2
+[2021.06.06-22.12.03:470][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/islacocina/source/Meja_Makan_Leg_1_6.Meja_Makan_Leg_1_6
+[2021.06.06-22.12.03:470][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/islacocina/source/Meja_Makan_Leg_9.Meja_Makan_Leg_9
+[2021.06.06-22.12.03:470][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/islacocina/source/Meja_Makan_Chair_4.Meja_Makan_Chair_4
+[2021.06.06-22.12.03:470][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/islacocina/source/Meja_Makan_Leg_1_4.Meja_Makan_Leg_1_4
+[2021.06.06-22.12.03:470][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/islacocina/source/Meja_Makan_Leg_6.Meja_Makan_Leg_6
+[2021.06.06-22.12.03:470][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/islacocina/source/Meja_Makan_Chair_3.Meja_Makan_Chair_3
+[2021.06.06-22.12.03:471][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/islacocina/source/Meja_Makan_Leg_1_2.Meja_Makan_Leg_1_2
+[2021.06.06-22.12.03:471][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/islacocina/source/Meja_Makan_Leg_3.Meja_Makan_Leg_3
+[2021.06.06-22.12.03:471][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/islacocina/source/Meja_Makan_Chair_2.Meja_Makan_Chair_2
+[2021.06.06-22.12.03:471][609]LogContentValidation: Display: Validating StaticMesh /Game/Objetos/islacocina/source/Meja_Makan_Table.Meja_Makan_Table
+[2021.06.06-22.12.03:529][610]Cmd: QUIT_EDITOR
+[2021.06.06-22.12.03:529][610]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2021.06.06-22.12.03:552][610]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2021.06.06-22.12.03:990][610]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2021.06.06-22.12.03:991][610]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2021.06.06-22.12.03:991][610]LogAudio: Display: Audio Device unregistered from world 'Casa'.
+[2021.06.06-22.12.03:992][610]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-22.12.03:998][610]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-22.12.04:201][610]LogAudio: Display: Audio Device Manager Shutdown
+[2021.06.06-22.12.04:237][610]LogExit: Preparing to exit.
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B67931ED00] Windows
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B67931EC00] Default__DeviceProfile
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C9600] WindowsNoEditor
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B67931D700] WindowsServer
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B6792CAE00] WindowsClient
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B67931E700] IOS
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C9400] iPadAir
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B67931D500] iPadAir2
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B679188300] IPadPro
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B67917BF00] iPadAir3
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B67931CD00] iPadAir4
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B679179A00] iPadMini2
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B67931D600] iPadMini3
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B67917A400] iPadMini4
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B67931EF00] iPadMini5
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C8800] iPhone6
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B6792CA800] iPodTouch6
+[2021.06.06-22.12.05:383][610]LogDeviceProfile: Device profile begin destroy: [000001B679179800] iPhone7
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B67917B000] iPodTouch7
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792CA200] iPhone5S
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B67917AC00] iPhone6Plus
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C8E00] iPhone6S
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B67917A600] iPhone6SPlus
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C8D00] iPhone7Plus
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B67917A900] iPhoneSE
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C8400] iPhone8
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B67917A800] iPhone8Plus
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C8500] iPhoneX
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B67917BC00] iPhoneXS
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792CAB00] iPhoneXSMax
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B679179900] iPhoneXR
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C8A00] iPhone11
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B679179C00] iPhone11Pro
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C9100] iPhone11ProMax
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B67917B400] iPhoneSE2
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792CBE00] iPhone12Mini
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B679179000] iPhone12
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C9C00] iPhone12Pro
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B67917B900] iPhone12ProMax
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792CB900] iPadPro105
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B679178100] iPadPro129
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C9200] iPadPro97
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B679179E00] iPadPro2_129
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C9300] iPad5
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B679178F00] iPad6
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C8900] iPad7
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B67917A100] iPad8
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792CAF00] iPadPro11
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B67917BA00] iPadPro2_11
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792CAD00] iPadPro3_129
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792CAA00] iPadPro4_129
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B679188900] AppleTV
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792CA100] AppleTV4K
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B679188400] TVOS
+[2021.06.06-22.12.05:384][610]LogDeviceProfile: Device profile begin destroy: [000001B6792CA900] Mac
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67918A600] MacClient
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67842C500] MacNoEditor
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67918B500] MacServer
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679178800] Linux
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679188C00] LinuxAArch64
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679179200] LinuxNoEditor
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679189500] LinuxAArch64NoEditor
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679179400] LinuxClient
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679188D00] LinuxAArch64Client
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67917A000] LinuxServer
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679189900] LinuxAArch64Server
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679179F00] Android
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679188100] Android_Low
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679178C00] Android_Mid
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67918B800] Android_High
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67917B600] Android_Default
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679188A00] Android_Adreno4xx
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679179D00] Android_Adreno5xx_Low
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67918A700] Android_Adreno5xx
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67917A200] Android_Adreno6xx
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679188F00] Android_Adreno6xx_Vulkan
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679179500] Android_Mali_T6xx
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67918BB00] Android_Mali_T7xx
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679178200] Android_Mali_T8xx
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679189600] Android_Mali_G71
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67917B500] Android_Mali_G72
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67918AF00] Android_Mali_G72_Vulkan
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679178400] Android_Mali_G76
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67918AB00] Android_Mali_G76_Vulkan
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679178A00] Android_Mali_G77
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67918B200] Android_Mali_G77_Vulkan
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679178300] Android_Vulkan_SM5
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679188500] Android_PowerVR_G6xxx
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67917B700] Android_PowerVR_GT7xxx
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67918B600] Android_PowerVR_GE8xxx
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679179700] Android_PowerVR_GM9xxx
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679189100] Android_PowerVR_GM9xxx_Vulkan
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B679178700] Android_TegraK1
+[2021.06.06-22.12.05:385][610]LogDeviceProfile: Device profile begin destroy: [000001B67918BC00] Android_Unknown_Vulkan
+[2021.06.06-22.12.05:386][610]LogDeviceProfile: Device profile begin destroy: [000001B67917BE00] Lumin
+[2021.06.06-22.12.05:386][610]LogDeviceProfile: Device profile begin destroy: [000001B67918BD00] Lumin_Desktop
+[2021.06.06-22.12.05:386][610]LogDeviceProfile: Device profile begin destroy: [000001B6792C9000] HoloLens
+[2021.06.06-22.12.05:458][610]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-22.12.05:465][610]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-22.12.05:470][610]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-22.12.05:476][610]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-22.12.05:627][610]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2021.06.06-22.12.05:787][610]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-22.12.05:789][610]LogExit: Editor shut down
+[2021.06.06-22.12.05:823][610]LogExit: Transaction tracking system shut down
+[2021.06.06-22.12.07:379][610]LogExit: Object subsystem successfully closed.
+[2021.06.06-22.12.07:506][610]LogShaderCompilers: Display: Shaders left to compile 0
+[2021.06.06-22.12.07:927][610]LogModuleManager: Shutting down and abandoning module BlueprintGraph (826)
+[2021.06.06-22.12.07:927][610]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (824)
+[2021.06.06-22.12.07:927][610]LogModuleManager: Shutting down and abandoning module Voice (822)
+[2021.06.06-22.12.07:928][610]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (820)
+[2021.06.06-22.12.07:928][610]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (818)
+[2021.06.06-22.12.07:929][610]LogModuleManager: Shutting down and abandoning module SceneOutliner (816)
+[2021.06.06-22.12.07:929][610]LogModuleManager: Shutting down and abandoning module AddContentDialog (814)
+[2021.06.06-22.12.07:962][610]LogModuleManager: Shutting down and abandoning module WidgetCarousel (813)
+[2021.06.06-22.12.07:962][610]LogModuleManager: Shutting down and abandoning module EditorWidgets (810)
+[2021.06.06-22.12.07:962][610]LogModuleManager: Shutting down and abandoning module StatsViewer (808)
+[2021.06.06-22.12.07:963][610]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (806)
+[2021.06.06-22.12.07:964][610]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (804)
+[2021.06.06-22.12.07:965][610]LogModuleManager: Shutting down and abandoning module AutomationWorker (802)
+[2021.06.06-22.12.07:966][610]LogModuleManager: Shutting down and abandoning module SteamVREditor (800)
+[2021.06.06-22.12.07:966][610]LogModuleManager: Shutting down and abandoning module OculusMR (798)
+[2021.06.06-22.12.07:966][610]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (796)
+[2021.06.06-22.12.07:969][610]LogModuleManager: Shutting down and abandoning module GooglePADEditor (794)
+[2021.06.06-22.12.07:970][610]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (792)
+[2021.06.06-22.12.07:971][610]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (790)
+[2021.06.06-22.12.07:977][610]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (788)
+[2021.06.06-22.12.07:982][610]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (786)
+[2021.06.06-22.12.07:983][610]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (784)
+[2021.06.06-22.12.07:985][610]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (782)
+[2021.06.06-22.12.07:985][610]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (780)
+[2021.06.06-22.12.07:985][610]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (778)
+[2021.06.06-22.12.07:986][610]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (776)
+[2021.06.06-22.12.07:986][610]LogModuleManager: Shutting down and abandoning module WebMMedia (774)
+[2021.06.06-22.12.07:986][610]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (772)
+[2021.06.06-22.12.07:988][610]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (770)
+[2021.06.06-22.12.07:990][610]LogModuleManager: Shutting down and abandoning module SequenceRecorder (769)
+[2021.06.06-22.12.07:991][610]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (766)
+[2021.06.06-22.12.07:991][610]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (764)
+[2021.06.06-22.12.07:991][610]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (762)
+[2021.06.06-22.12.07:991][610]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (760)
+[2021.06.06-22.12.07:991][610]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (758)
+[2021.06.06-22.12.07:991][610]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (756)
+[2021.06.06-22.12.07:991][610]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (754)
+[2021.06.06-22.12.07:991][610]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (752)
+[2021.06.06-22.12.07:991][610]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (750)
+[2021.06.06-22.12.07:992][610]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (748)
+[2021.06.06-22.12.07:992][610]LogModuleManager: Shutting down and abandoning module PlanarCut (746)
+[2021.06.06-22.12.07:992][610]LogModuleManager: Shutting down and abandoning module CharacterAI (744)
+[2021.06.06-22.12.07:992][610]LogModuleManager: Shutting down and abandoning module TextureAlignMode (742)
+[2021.06.06-22.12.07:992][610]LogModuleManager: Shutting down and abandoning module BspMode (740)
+[2021.06.06-22.12.07:992][610]LogModuleManager: Shutting down and abandoning module GeometryMode (738)
+[2021.06.06-22.12.07:993][610]LogModuleManager: Shutting down and abandoning module SmartSnapping (736)
+[2021.06.06-22.12.07:993][610]LogModuleManager: Shutting down and abandoning module SessionServices (734)
+[2021.06.06-22.12.07:993][610]LogModuleManager: Shutting down and abandoning module MeshPaint (732)
+[2021.06.06-22.12.07:995][610]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (730)
+[2021.06.06-22.12.07:995][610]LogModuleManager: Shutting down and abandoning module FoliageEdit (728)
+[2021.06.06-22.12.07:996][610]LogModuleManager: Shutting down and abandoning module LandscapeEditor (726)
+[2021.06.06-22.12.08:001][610]LogModuleManager: Shutting down and abandoning module MeshPaintMode (724)
+[2021.06.06-22.12.08:002][610]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (722)
+[2021.06.06-22.12.08:002][610]LogModuleManager: Shutting down and abandoning module ActorPickerMode (720)
+[2021.06.06-22.12.08:002][610]LogModuleManager: Shutting down and abandoning module PlacementMode (718)
+[2021.06.06-22.12.08:002][610]LogModuleManager: Shutting down and abandoning module ViewportSnapping (716)
+[2021.06.06-22.12.08:002][610]LogModuleManager: Shutting down and abandoning module ViewportInteraction (714)
+[2021.06.06-22.12.08:003][610]LogModuleManager: Shutting down and abandoning module ClothPainter (712)
+[2021.06.06-22.12.08:005][610]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (711)
+[2021.06.06-22.12.08:007][610]LogModuleManager: Shutting down and abandoning module LogVisualizer (708)
+[2021.06.06-22.12.08:010][610]LogModuleManager: Shutting down and abandoning module IntroTutorials (706)
+[2021.06.06-22.12.08:014][610]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (705)
+[2021.06.06-22.12.08:015][610]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (702)
+[2021.06.06-22.12.08:015][610]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (700)
+[2021.06.06-22.12.08:016][610]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (698)
+[2021.06.06-22.12.08:017][610]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (697)
+[2021.06.06-22.12.08:918][610]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (694)
+[2021.06.06-22.12.08:918][610]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (692)
+[2021.06.06-22.12.08:918][610]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (690)
+[2021.06.06-22.12.08:918][610]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (688)
+[2021.06.06-22.12.08:918][610]LogModuleManager: Shutting down and abandoning module TraceInsights (686)
+[2021.06.06-22.12.08:923][610]MemoryProfiler: Shutdown
+[2021.06.06-22.12.08:924][610]NetworkingProfiler: Shutdown
+[2021.06.06-22.12.08:924][610]LoadingProfiler: Shutdown
+[2021.06.06-22.12.08:926][610]TimingProfiler: Shutdown
+[2021.06.06-22.12.08:935][610]LogModuleManager: Shutting down and abandoning module TraceServices (685)
+[2021.06.06-22.12.08:937][610]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (682)
+[2021.06.06-22.12.08:937][610]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (680)
+[2021.06.06-22.12.08:938][610]LogModuleManager: Shutting down and abandoning module InputBindingEditor (678)
+[2021.06.06-22.12.08:939][610]LogModuleManager: Shutting down and abandoning module MergeActors (676)
+[2021.06.06-22.12.08:940][610]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (674)
+[2021.06.06-22.12.08:942][610]LogModuleManager: Shutting down and abandoning module LocalizationService (673)
+[2021.06.06-22.12.08:943][610]LogModuleManager: Shutting down and abandoning module HardwareTargeting (670)
+[2021.06.06-22.12.08:943][610]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (668)
+[2021.06.06-22.12.08:944][610]LogModuleManager: Shutting down and abandoning module UndoHistory (666)
+[2021.06.06-22.12.08:945][610]LogModuleManager: Shutting down and abandoning module XmlParser (664)
+[2021.06.06-22.12.08:945][610]LogModuleManager: Shutting down and abandoning module Blutility (662)
+[2021.06.06-22.12.08:945][610]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (660)
+[2021.06.06-22.12.08:946][610]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (659)
+[2021.06.06-22.12.08:947][610]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (656)
+[2021.06.06-22.12.08:948][610]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (655)
+[2021.06.06-22.12.08:949][610]LogModuleManager: Shutting down and abandoning module SettingsEditor (652)
+[2021.06.06-22.12.08:949][610]LogModuleManager: Shutting down and abandoning module ProjectLauncher (650)
+[2021.06.06-22.12.08:951][610]LogModuleManager: Shutting down and abandoning module SessionFrontend (648)
+[2021.06.06-22.12.08:957][610]LogModuleManager: Shutting down and abandoning module ProfilerClient (646)
+[2021.06.06-22.12.08:960][610]LogModuleManager: Shutting down and abandoning module DeviceManager (644)
+[2021.06.06-22.12.08:965][610]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (643)
+[2021.06.06-22.12.09:002][610]LogModuleManager: Shutting down and abandoning module AutomationController (640)
+[2021.06.06-22.12.09:003][610]LogModuleManager: Shutting down and abandoning module AutomationWindow (638)
+[2021.06.06-22.12.09:004][610]LogModuleManager: Shutting down and abandoning module Layers (636)
+[2021.06.06-22.12.09:009][610]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (634)
+[2021.06.06-22.12.09:009][610]LogModuleManager: Shutting down and abandoning module DetailCustomizations (632)
+[2021.06.06-22.12.09:010][610]LogModuleManager: Shutting down and abandoning module PackagesDialog (630)
+[2021.06.06-22.12.09:011][610]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (628)
+[2021.06.06-22.12.09:013][610]LogModuleManager: Shutting down and abandoning module Persona (626)
+[2021.06.06-22.12.09:015][610]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (625)
+[2021.06.06-22.12.09:015][610]LogModuleManager: Shutting down and abandoning module AnimGraph (623)
+[2021.06.06-22.12.09:015][610]LogModuleManager: Shutting down and abandoning module Kismet (620)
+[2021.06.06-22.12.09:044][610]LogModuleManager: Shutting down and abandoning module KismetWidgets (619)
+[2021.06.06-22.12.09:044][610]LogModuleManager: Shutting down and abandoning module GraphEditor (616)
+[2021.06.06-22.12.09:045][610]LogModuleManager: Shutting down and abandoning module StructViewer (614)
+[2021.06.06-22.12.09:046][610]LogModuleManager: Shutting down and abandoning module ClassViewer (612)
+[2021.06.06-22.12.09:047][610]LogModuleManager: Shutting down and abandoning module Toolbox (610)
+[2021.06.06-22.12.09:047][610]LogModuleManager: Shutting down and abandoning module ModuleUI (608)
+[2021.06.06-22.12.09:048][610]LogModuleManager: Shutting down and abandoning module OutputLog (606)
+[2021.06.06-22.12.09:068][610]LogModuleManager: Shutting down and abandoning module GammaUI (604)
+[2021.06.06-22.12.09:069][610]LogModuleManager: Shutting down and abandoning module Documentation (602)
+[2021.06.06-22.12.09:070][610]LogModuleManager: Shutting down and abandoning module LiveCoding (600)
+[2021.06.06-22.12.09:072][610]LogModuleManager: Shutting down and abandoning module LevelSequence (598)
+[2021.06.06-22.12.09:073][610]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (596)
+[2021.06.06-22.12.09:074][610]LogModuleManager: Shutting down and abandoning module MovieScene (594)
+[2021.06.06-22.12.09:075][610]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (592)
+[2021.06.06-22.12.09:075][610]LogModuleManager: Shutting down and abandoning module LauncherPlatform (590)
+[2021.06.06-22.12.09:076][610]LogModuleManager: Shutting down and abandoning module AnalyticsET (588)
+[2021.06.06-22.12.09:076][610]LogModuleManager: Shutting down and abandoning module PortalServices (586)
+[2021.06.06-22.12.09:076][610]LogModuleManager: Shutting down and abandoning module PortalRpc (584)
+[2021.06.06-22.12.09:076][610]LogModuleManager: Shutting down and abandoning module MessagingRpc (582)
+[2021.06.06-22.12.09:076][610]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (580)
+[2021.06.06-22.12.09:076][610]LogModuleManager: Shutting down and abandoning module AudioMixerCore (579)
+[2021.06.06-22.12.09:076][610]LogModuleManager: Shutting down and abandoning module AIModule (576)
+[2021.06.06-22.12.09:077][610]LogModuleManager: Shutting down and abandoning module GameplayDebugger (575)
+[2021.06.06-22.12.09:077][610]LogModuleManager: Shutting down and abandoning module AITestSuite (573)
+[2021.06.06-22.12.09:078][610]LogModuleManager: Shutting down and abandoning module NavigationSystem (571)
+[2021.06.06-22.12.09:078][610]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (568)
+[2021.06.06-22.12.09:079][610]LogModuleManager: Shutting down and abandoning module ProfilerService (566)
+[2021.06.06-22.12.09:178][610]LogModuleManager: Shutting down and abandoning module TaskGraph (564)
+[2021.06.06-22.12.09:179][610]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (562)
+[2021.06.06-22.12.09:179][610]LogModuleManager: Shutting down and abandoning module OculusEditor (560)
+[2021.06.06-22.12.09:180][610]LogModuleManager: Shutting down and abandoning module OculusInput (558)
+[2021.06.06-22.12.09:180][610]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (556)
+[2021.06.06-22.12.09:180][610]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (554)
+[2021.06.06-22.12.09:180][610]LogModuleManager: Shutting down and abandoning module CollectionManager (553)
+[2021.06.06-22.12.09:183][610]LogModuleManager: Shutting down and abandoning module ScreenshotTools (550)
+[2021.06.06-22.12.09:183][610]LogModuleManager: Shutting down and abandoning module SynthesisEditor (548)
+[2021.06.06-22.12.09:183][610]LogModuleManager: Shutting down and abandoning module Synthesis (546)
+[2021.06.06-22.12.09:185][610]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (544)
+[2021.06.06-22.12.09:186][610]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (542)
+[2021.06.06-22.12.09:187][610]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (540)
+[2021.06.06-22.12.09:187][610]LogModuleManager: Shutting down and abandoning module GooglePAD (538)
+[2021.06.06-22.12.09:187][610]LogModuleManager: Shutting down and abandoning module EditableMesh (536)
+[2021.06.06-22.12.09:187][610]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (534)
+[2021.06.06-22.12.09:187][610]LogModuleManager: Shutting down and abandoning module AudioCapture (532)
+[2021.06.06-22.12.09:187][610]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (531)
+[2021.06.06-22.12.09:188][610]LogModuleManager: Shutting down and abandoning module CableComponent (528)
+[2021.06.06-22.12.09:188][610]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (526)
+[2021.06.06-22.12.09:188][610]LogModuleManager: Shutting down and abandoning module AssetTags (524)
+[2021.06.06-22.12.09:188][610]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (522)
+[2021.06.06-22.12.09:188][610]LogModuleManager: Shutting down and abandoning module AppleImageUtils (520)
+[2021.06.06-22.12.09:188][610]LogModuleManager: Shutting down and abandoning module AndroidPermission (518)
+[2021.06.06-22.12.09:188][610]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (516)
+[2021.06.06-22.12.09:189][610]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (514)
+[2021.06.06-22.12.09:189][610]LogModuleManager: Shutting down and abandoning module TemplateSequence (512)
+[2021.06.06-22.12.09:189][610]LogModuleManager: Shutting down and abandoning module MediaCompositing (510)
+[2021.06.06-22.12.09:189][610]LogModuleManager: Shutting down and abandoning module ImgMedia (508)
+[2021.06.06-22.12.09:190][610]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (506)
+[2021.06.06-22.12.09:190][610]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (504)
+[2021.06.06-22.12.09:190][610]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (502)
+[2021.06.06-22.12.09:191][610]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (500)
+[2021.06.06-22.12.09:191][610]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (498)
+[2021.06.06-22.12.09:191][610]LogModuleManager: Shutting down and abandoning module FirstPersonCharacter (496)
+[2021.06.06-22.12.09:191][610]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (494)
+[2021.06.06-22.12.09:194][610]LogModuleManager: Shutting down and abandoning module MotoSynthEditor (492)
+[2021.06.06-22.12.09:194][610]LogModuleManager: Shutting down and abandoning module MotoSynth (490)
+[2021.06.06-22.12.09:195][610]LogModuleManager: Shutting down and abandoning module MeshConversion (488)
+[2021.06.06-22.12.09:195][610]LogModuleManager: Shutting down and abandoning module DynamicMesh (486)
+[2021.06.06-22.12.09:196][610]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (484)
+[2021.06.06-22.12.09:196][610]LogModuleManager: Shutting down and abandoning module GeometricObjects (482)
+[2021.06.06-22.12.09:197][610]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (480)
+[2021.06.06-22.12.09:197][610]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (479)
+[2021.06.06-22.12.09:197][610]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (476)
+[2021.06.06-22.12.09:197][610]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (474)
+[2021.06.06-22.12.09:198][610]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (472)
+[2021.06.06-22.12.09:198][610]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (470)
+[2021.06.06-22.12.09:198][610]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (468)
+[2021.06.06-22.12.09:199][610]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (466)
+[2021.06.06-22.12.09:200][610]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (464)
+[2021.06.06-22.12.09:200][610]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (462)
+[2021.06.06-22.12.09:200][610]LogModuleManager: Shutting down and abandoning module ChaosNiagara (460)
+[2021.06.06-22.12.09:201][610]LogModuleManager: Shutting down and abandoning module FractureEditor (458)
+[2021.06.06-22.12.09:202][610]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (457)
+[2021.06.06-22.12.09:202][610]LogModuleManager: Shutting down and abandoning module BackChannel (454)
+[2021.06.06-22.12.09:202][610]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (452)
+[2021.06.06-22.12.09:202][610]LogModuleManager: Shutting down and abandoning module AutomationUtils (450)
+[2021.06.06-22.12.09:202][610]LogModuleManager: Shutting down and abandoning module AlembicImporter (448)
+[2021.06.06-22.12.09:202][610]LogModuleManager: Shutting down and abandoning module AlembicLibrary (447)
+[2021.06.06-22.12.09:203][610]LogModuleManager: Shutting down and abandoning module GeometryCache (446)
+[2021.06.06-22.12.09:203][610]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (445)
+[2021.06.06-22.12.09:203][610]LogModuleManager: Shutting down and abandoning module UObjectPlugin (440)
+[2021.06.06-22.12.09:203][610]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (438)
+[2021.06.06-22.12.09:204][610]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (436)
+[2021.06.06-22.12.09:205][610]LogModuleManager: Shutting down and abandoning module PluginUtils (434)
+[2021.06.06-22.12.09:205][610]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (432)
+[2021.06.06-22.12.09:205][610]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (430)
+[2021.06.06-22.12.09:208][610]LogModuleManager: Shutting down and abandoning module PluginBrowser (428)
+[2021.06.06-22.12.09:211][610]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (426)
+[2021.06.06-22.12.09:214][610]LogModuleManager: Shutting down and abandoning module GitSourceControl (424)
+[2021.06.06-22.12.09:216][610]LogModuleManager: Shutting down and abandoning module SourceControl (423)
+[2021.06.06-22.12.09:218][610]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (420)
+[2021.06.06-22.12.09:218][610]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (418)
+[2021.06.06-22.12.09:220][610]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (416)
+[2021.06.06-22.12.09:220][610]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (414)
+[2021.06.06-22.12.09:221][610]LogModuleManager: Shutting down and abandoning module CurveEditorTools (412)
+[2021.06.06-22.12.09:224][610]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (410)
+[2021.06.06-22.12.09:224][610]LogModuleManager: Shutting down and abandoning module CryptoKeys (408)
+[2021.06.06-22.12.09:225][610]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (406)
+[2021.06.06-22.12.09:225][610]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (404)
+[2021.06.06-22.12.09:226][610]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (402)
+[2021.06.06-22.12.09:227][610]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (400)
+[2021.06.06-22.12.09:227][610]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (398)
+[2021.06.06-22.12.09:227][610]LogModuleManager: Shutting down and abandoning module Paper2DEditor (396)
+[2021.06.06-22.12.09:231][610]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (394)
+[2021.06.06-22.12.09:231][610]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (392)
+[2021.06.06-22.12.09:234][610]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (390)
+[2021.06.06-22.12.09:234][610]LogModuleManager: Shutting down and abandoning module SoundFields (388)
+[2021.06.06-22.12.09:235][610]LogModuleManager: Shutting down and abandoning module SignificanceManager (386)
+[2021.06.06-22.12.09:235][610]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (384)
+[2021.06.06-22.12.09:236][610]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (382)
+[2021.06.06-22.12.09:236][610]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (378)
+[2021.06.06-22.12.09:236][610]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (376)
+[2021.06.06-22.12.09:237][610]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (374)
+[2021.06.06-22.12.09:237][610]LogModuleManager: Shutting down and abandoning module TcpMessaging (372)
+[2021.06.06-22.12.09:339][610]LogModuleManager: Shutting down and abandoning module ActorSequence (370)
+[2021.06.06-22.12.09:339][610]LogModuleManager: Shutting down and abandoning module UdpMessaging (368)
+[2021.06.06-22.12.09:440][610]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (366)
+[2021.06.06-22.12.09:440][610]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (364)
+[2021.06.06-22.12.09:440][610]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (362)
+[2021.06.06-22.12.09:440][610]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (360)
+[2021.06.06-22.12.09:440][610]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (358)
+[2021.06.06-22.12.09:442][610]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2021.06.06-22.12.09:442][610]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (356)
+[2021.06.06-22.12.09:443][610]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (354)
+[2021.06.06-22.12.09:443][610]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (352)
+[2021.06.06-22.12.09:444][610]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (350)
+[2021.06.06-22.12.09:445][610]LogModuleManager: Shutting down and abandoning module MagicLeapController (348)
+[2021.06.06-22.12.09:447][610]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2021.06.06-22.12.09:447][610]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (346)
+[2021.06.06-22.12.09:447][610]LogModuleManager: Shutting down and abandoning module MagicLeapAR (344)
+[2021.06.06-22.12.09:447][610]LogModuleManager: Shutting down and abandoning module AugmentedReality (343)
+[2021.06.06-22.12.09:448][610]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (340)
+[2021.06.06-22.12.09:448][610]LogModuleManager: Shutting down and abandoning module Niagara (338)
+[2021.06.06-22.12.09:451][610]LogModuleManager: Shutting down and abandoning module SignalProcessing (337)
+[2021.06.06-22.12.09:451][610]LogModuleManager: Shutting down and abandoning module NiagaraEditor (335)
+[2021.06.06-22.12.09:456][610]LogModuleManager: Shutting down and abandoning module NiagaraCore (332)
+[2021.06.06-22.12.09:456][610]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (330)
+[2021.06.06-22.12.09:456][610]LogModuleManager: Shutting down and abandoning module AnimationSharing (328)
+[2021.06.06-22.12.09:456][610]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (326)
+[2021.06.06-22.12.09:457][610]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (324)
+[2021.06.06-22.12.09:457][610]LogModuleManager: Shutting down and abandoning module FacialAnimation (322)
+[2021.06.06-22.12.09:457][610]LogModuleManager: Shutting down and abandoning module DataValidation (320)
+[2021.06.06-22.12.09:457][610]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (318)
+[2021.06.06-22.12.09:459][610]LogModuleManager: Shutting down and abandoning module LevelEditor (317)
+[2021.06.06-22.12.09:468][610]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (316)
+[2021.06.06-22.12.09:470][610]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (314)
+[2021.06.06-22.12.09:471][610]LogModuleManager: Shutting down and abandoning module MainFrame (312)
+[2021.06.06-22.12.09:472][610]LogModuleManager: Shutting down and abandoning module HotReload (311)
+[2021.06.06-22.12.09:475][610]LogModuleManager: Shutting down and abandoning module ToolMenus (307)
+[2021.06.06-22.12.09:476][610]LogModuleManager: Shutting down and abandoning module ContentBrowser (305)
+[2021.06.06-22.12.09:476][610]LogModuleManager: Shutting down and abandoning module ContentBrowserData (304)
+[2021.06.06-22.12.09:476][610]LogModuleManager: Shutting down and abandoning module TreeMap (301)
+[2021.06.06-22.12.09:477][610]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (298)
+[2021.06.06-22.12.09:477][610]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (296)
+[2021.06.06-22.12.09:478][610]LogModuleManager: Shutting down and abandoning module Paper2D (294)
+[2021.06.06-22.12.09:479][610]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (292)
+[2021.06.06-22.12.09:479][610]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (290)
+[2021.06.06-22.12.09:833][610]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (288)
+[2021.06.06-22.12.09:834][610]LogModuleManager: Shutting down and abandoning module PacketHandler (286)
+[2021.06.06-22.12.09:834][610]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (284)
+[2021.06.06-22.12.09:835][610]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (282)
+[2021.06.06-22.12.09:836][610]LogModuleManager: Shutting down and abandoning module MediaAssets (280)
+[2021.06.06-22.12.09:836][610]LogModuleManager: Shutting down and abandoning module Overlay (278)
+[2021.06.06-22.12.09:836][610]LogModuleManager: Shutting down and abandoning module OverlayEditor (277)
+[2021.06.06-22.12.09:836][610]LogModuleManager: Shutting down and abandoning module VREditor (274)
+[2021.06.06-22.12.09:836][610]LogModuleManager: Shutting down and abandoning module StringTableEditor (272)
+[2021.06.06-22.12.09:837][610]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (270)
+[2021.06.06-22.12.09:838][610]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (268)
+[2021.06.06-22.12.09:839][610]LogModuleManager: Shutting down and abandoning module FunctionalTesting (266)
+[2021.06.06-22.12.09:840][610]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (264)
+[2021.06.06-22.12.09:842][610]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (263)
+[2021.06.06-22.12.09:845][610]LogModuleManager: Shutting down and abandoning module UMG (260)
+[2021.06.06-22.12.09:846][610]LogModuleManager: Shutting down and abandoning module UMGEditor (259)
+[2021.06.06-22.12.09:848][610]LogModuleManager: Shutting down and abandoning module MessageLog (257)
+[2021.06.06-22.12.09:848][610]LogModuleManager: Shutting down and abandoning module SlateReflector (252)
+[2021.06.06-22.12.09:853][610]LogModuleManager: Shutting down and abandoning module Slate (250)
+[2021.06.06-22.12.09:853][610]LogModuleManager: Shutting down and abandoning module SlateCore (248)
+[2021.06.06-22.12.09:855][610]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (246)
+[2021.06.06-22.12.09:855][610]LogModuleManager: Shutting down and abandoning module UnrealEd (244)
+[2021.06.06-22.12.09:855][610]LogModuleManager: Shutting down and abandoning module MRMesh (242)
+[2021.06.06-22.12.09:855][610]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (240)
+[2021.06.06-22.12.09:856][610]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (238)
+[2021.06.06-22.12.09:856][610]LogModuleManager: Shutting down and abandoning module XAudio2 (236)
+[2021.06.06-22.12.09:857][610]LogModuleManager: Shutting down and abandoning module Networking (234)
+[2021.06.06-22.12.09:857][610]LogModuleManager: Shutting down and abandoning module Core (232)
+[2021.06.06-22.12.09:857][610]LogModuleManager: Shutting down and abandoning module MaterialEditor (230)
+[2021.06.06-22.12.09:857][610]LogModuleManager: Shutting down and abandoning module MovieSceneTools (228)
+[2021.06.06-22.12.09:860][610]LogModuleManager: Shutting down and abandoning module CurveEditor (227)
+[2021.06.06-22.12.09:866][610]LogModuleManager: Shutting down and abandoning module Sequencer (225)
+[2021.06.06-22.12.09:869][610]LogModuleManager: Shutting down and abandoning module EditorStyle (224)
+[2021.06.06-22.12.09:883][610]LogModuleManager: Shutting down and abandoning module KismetCompiler (220)
+[2021.06.06-22.12.09:883][610]LogModuleManager: Shutting down and abandoning module MeshBuilder (218)
+[2021.06.06-22.12.09:883][610]LogModuleManager: Shutting down and abandoning module MeshUtilities (216)
+[2021.06.06-22.12.09:884][610]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (215)
+[2021.06.06-22.12.09:885][610]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (214)
+[2021.06.06-22.12.09:885][610]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (213)
+[2021.06.06-22.12.09:886][610]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (211)
+[2021.06.06-22.12.09:886][610]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (209)
+[2021.06.06-22.12.09:891][610]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (207)
+[2021.06.06-22.12.09:892][610]LogModuleManager: Shutting down and abandoning module MaterialBaking (203)
+[2021.06.06-22.12.09:893][610]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (198)
+[2021.06.06-22.12.09:893][610]LogModuleManager: Shutting down and abandoning module DerivedDataCache (196)
+[2021.06.06-22.12.09:894][610]LogModuleManager: Shutting down and abandoning module TargetPlatform (194)
+[2021.06.06-22.12.09:897][610]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2021.06.06-22.12.09:901][610]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (191)
+[2021.06.06-22.12.09:902][610]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (189)
+[2021.06.06-22.12.09:902][610]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (187)
+[2021.06.06-22.12.09:903][610]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (185)
+[2021.06.06-22.12.09:904][610]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (183)
+[2021.06.06-22.12.09:904][610]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (181)
+[2021.06.06-22.12.09:905][610]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (179)
+[2021.06.06-22.12.09:906][610]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (177)
+[2021.06.06-22.12.09:906][610]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (175)
+[2021.06.06-22.12.09:908][610]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (173)
+[2021.06.06-22.12.09:908][610]LogModuleManager: Shutting down and abandoning module ImageWrapper (172)
+[2021.06.06-22.12.09:909][610]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (169)
+[2021.06.06-22.12.09:909][610]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (167)
+[2021.06.06-22.12.09:911][610]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (165)
+[2021.06.06-22.12.09:911][610]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (163)
+[2021.06.06-22.12.09:912][610]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (161)
+[2021.06.06-22.12.09:914][610]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (159)
+[2021.06.06-22.12.09:914][610]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (157)
+[2021.06.06-22.12.09:914][610]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (155)
+[2021.06.06-22.12.10:014][610]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (153)
+[2021.06.06-22.12.10:014][610]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (151)
+[2021.06.06-22.12.10:014][610]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (149)
+[2021.06.06-22.12.10:015][610]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (147)
+[2021.06.06-22.12.10:015][610]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (145)
+[2021.06.06-22.12.10:087][610]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (143)
+[2021.06.06-22.12.10:088][610]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (141)
+[2021.06.06-22.12.10:088][610]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (139)
+[2021.06.06-22.12.10:088][610]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (137)
+[2021.06.06-22.12.10:089][610]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (135)
+[2021.06.06-22.12.10:090][610]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (133)
+[2021.06.06-22.12.10:090][610]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (131)
+[2021.06.06-22.12.10:090][610]LogModuleManager: Shutting down and abandoning module Messaging (129)
+[2021.06.06-22.12.10:090][610]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (127)
+[2021.06.06-22.12.10:156][610]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (125)
+[2021.06.06-22.12.10:308][610]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (123)
+[2021.06.06-22.12.10:308][610]LogModuleManager: Shutting down and abandoning module InputCore (120)
+[2021.06.06-22.12.10:308][610]LogModuleManager: Shutting down and abandoning module Settings (118)
+[2021.06.06-22.12.10:309][610]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (116)
+[2021.06.06-22.12.10:313][610]LogModuleManager: Shutting down and abandoning module PhysXCooking (114)
+[2021.06.06-22.12.10:313][610]LogModuleManager: Shutting down and abandoning module Chaos (112)
+[2021.06.06-22.12.10:313][610]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (110)
+[2021.06.06-22.12.10:314][610]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (109)
+[2021.06.06-22.12.10:314][610]LogModuleManager: Shutting down and abandoning module AVEncoder (108)
+[2021.06.06-22.12.10:315][610]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (104)
+[2021.06.06-22.12.10:316][610]LogModuleManager: Shutting down and abandoning module SteamVRInput (102)
+[2021.06.06-22.12.10:316][610]LogModuleManager: Shutting down and abandoning module SteamVR (100)
+[2021.06.06-22.12.10:317][610]LogHMD: Freeing OpenVRDLLHandle.
+[2021.06.06-22.12.10:317][610]LogModuleManager: Shutting down and abandoning module OculusHMD (98)
+[2021.06.06-22.12.10:318][610]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (96)
+[2021.06.06-22.12.10:318][610]LogModuleManager: Shutting down and abandoning module ChunkDownloader (94)
+[2021.06.06-22.12.10:319][610]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (92)
+[2021.06.06-22.12.10:319][610]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (88)
+[2021.06.06-22.12.10:319][610]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (86)
+[2021.06.06-22.12.10:325][610]LogModuleManager: Shutting down and abandoning module XMPP (81)
+[2021.06.06-22.12.10:326][610]LogModuleManager: Shutting down and abandoning module WebSockets (80)
+[2021.06.06-22.12.10:341][610]LogModuleManager: Shutting down and abandoning module HTTP (77)
+[2021.06.06-22.12.10:342][610]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2021.06.06-22.12.10:342][610]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5B8B5C0B-4BB6-1E21-BCD8-03B9D244CEB2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.26.2-15973114%2B%2B%2BUE4%2BRelease-4.26&UserID=6e19bc564a700f170815a49fbeb63575%7Ce6de89fd9e79460ba16e180b0419ad03%7Cc0ba100c-8515-4d1e-bed3-4cf176a73e35&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2021.06.06-22.12.10:342][610]LogHttp: Display: cleaning up 1 outstanding Http requests.
+[2021.06.06-22.12.10:366][610]LogModuleManager: Shutting down and abandoning module SSL (76)
+[2021.06.06-22.12.10:380][610]LogModuleManager: Shutting down and abandoning module WmfMedia (72)
+[2021.06.06-22.12.10:389][610]LogModuleManager: Shutting down and abandoning module Media (71)
+[2021.06.06-22.12.10:392][610]LogModuleManager: Shutting down and abandoning module MediaInfo (70)
+[2021.06.06-22.12.10:392][610]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (66)
+[2021.06.06-22.12.10:392][610]LogModuleManager: Shutting down and abandoning module MLSDK (64)
+[2021.06.06-22.12.10:393][610]LogModuleManager: Shutting down and abandoning module MagicLeap (62)
+[2021.06.06-22.12.10:393][610]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (60)
+[2021.06.06-22.12.10:393][610]LogModuleManager: Shutting down and abandoning module NiagaraShader (58)
+[2021.06.06-22.12.10:393][610]LogModuleManager: Shutting down and abandoning module ChaosCloth (56)
+[2021.06.06-22.12.10:394][610]LogModuleManager: Shutting down and abandoning module VariantManagerContent (54)
+[2021.06.06-22.12.10:394][610]LogModuleManager: Shutting down and abandoning module DatasmithContent (52)
+[2021.06.06-22.12.10:396][610]LogModuleManager: Shutting down and abandoning module AISupportModule (50)
+[2021.06.06-22.12.10:396][610]LogModuleManager: Shutting down and abandoning module DesktopPlatform (48)
+[2021.06.06-22.12.10:398][610]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (46)
+[2021.06.06-22.12.10:400][610]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (44)
+[2021.06.06-22.12.10:400][610]LogModuleManager: Shutting down and abandoning module PlatformCrypto (42)
+[2021.06.06-22.12.10:400][610]LogModuleManager: Shutting down and abandoning module XGEController (40)
+[2021.06.06-22.12.10:401][610]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2021.06.06-22.12.10:402][610]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2021.06.06-22.12.10:410][610]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2021.06.06-22.12.10:415][610]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2021.06.06-22.12.10:416][610]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2021.06.06-22.12.10:416][610]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2021.06.06-22.12.10:416][610]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2021.06.06-22.12.10:426][610]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2021.06.06-22.12.10:427][610]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2021.06.06-22.12.10:427][610]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2021.06.06-22.12.10:427][610]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2021.06.06-22.12.10:428][610]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2021.06.06-22.12.10:429][610]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2021.06.06-22.12.10:429][610]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2021.06.06-22.12.10:429][610]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2021.06.06-22.12.10:429][610]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2021.06.06-22.12.10:430][610]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2021.06.06-22.12.10:430][610]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2021.06.06-22.12.10:439][610]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2021.06.06-22.12.10:442][610]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2021.06.06-22.12.10:469][610]LogD3D11RHI: Shutdown
+[2021.06.06-22.12.10:469][610]LogD3D11RHI: CleanupD3DDevice
+[2021.06.06-22.12.10:585][610]LogExit: Exiting.
+[2021.06.06-22.12.10:631][610]Log file closed, 06/06/21 17:12:10
