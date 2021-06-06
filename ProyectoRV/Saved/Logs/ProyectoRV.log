@@ -6441,3 +6441,69 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.06-21.48.47:317][202]AssetCheck: New page: Asset Save: multiple assets
 [2021.06.06-21.48.47:317][202]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
 [2021.06.06-21.48.47:317][202]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.06-21.50.50:212][665]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.06-21.50.50:229][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.06-21.50.50:230][665]PIE: New page: PIE session: Casa (Jun 6, 2021, 11:50:50 AM)
+[2021.06.06-21.50.50:230][665]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Casa
+[2021.06.06-21.50.50:297][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066351s)
+[2021.06.06-21.50.50:299][665]LogAIModule: Creating AISystem for world Casa
+[2021.06.06-21.50.50:300][665]LogPlayLevel: PIE: World Init took: (0.003376s)
+[2021.06.06-21.50.50:300][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Casa.Casa to /Game/UEDPIE_0_Casa.Casa (0.070130s)
+[2021.06.06-21.50.50:344][665]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.06.06-21.50.50:348][665]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2021.06.06-21.50.50:348][665]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.06-21.50.50:348][665]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.06-21.50.50:348][665]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.06-21.50.50:348][665]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.06-21.50.50:349][665]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.06-21.50.50:349][665]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.06-21.50.50:349][665]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.06-21.50.50:349][665]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.06-21.50.50:350][665]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.06-21.50.50:350][665]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.06-21.50.50:359][665]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.06-21.50.50:359][665]LogAudioMixer: Display: 1: FrontRight
+[2021.06.06-21.50.50:405][665]LogAudioMixer: Display: Using Audio Device Speaker (Realtek(R) Audio)
+[2021.06.06-21.50.50:406][665]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.06-21.50.50:406][665]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.06-21.50.50:406][665]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.06-21.50.50:408][665]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.06-21.50.50:408][665]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.06-21.50.50:408][665]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.06-21.50.50:468][665]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.06-21.50.50:468][665]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.06-21.50.50:468][665]LogInit: FAudioDevice initialized.
+[2021.06.06-21.50.50:468][665]LogAudio: Display: Audio Device (ID: 17) registered with world 'Casa'.
+[2021.06.06-21.50.50:489][665]LogLoad: Game class is 'GameModeBase'
+[2021.06.06-21.50.50:502][665]LogWorld: Bringing World /Game/UEDPIE_0_Casa.Casa up for play (max tick rate 60) at 2021.06.06-16.50.50
+[2021.06.06-21.50.50:503][665]LogWorld: Bringing up level for play took: 0.012244
+[2021.06.06-21.50.50:504][665]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.06.06-21.50.50:514][665]PIE: Server logged in
+[2021.06.06-21.50.50:516][665]PIE: Play in editor total start time 0.292 seconds.
+[2021.06.06-21.50.51:579][719]LogTemp: Warning: No footstep sound
+[2021.06.06-21.50.51:913][739]LogTemp: Warning: No footstep sound
+[2021.06.06-21.50.52:245][759]LogTemp: Warning: No footstep sound
+[2021.06.06-21.50.52:580][779]LogTemp: Warning: No footstep sound
+[2021.06.06-21.50.52:913][799]LogTemp: Warning: No footstep sound
+[2021.06.06-21.50.53:580][836]LogTemp: Warning: No footstep sound
+[2021.06.06-21.50.54:017][862]LogTemp: Warning: No footstep sound
+[2021.06.06-21.50.54:350][882]LogTemp: Warning: No footstep sound
+[2021.06.06-21.50.54:685][902]LogTemp: Warning: No footstep sound
+[2021.06.06-21.51.20:307][437]LogTemp: Warning: No footstep sound
+[2021.06.06-21.51.20:859][470]LogTemp: Warning: No footstep sound
+[2021.06.06-21.51.21:393][502]LogTemp: Warning: No footstep sound
+[2021.06.06-21.51.22:495][568]LogTemp: Warning: No footstep sound
+[2021.06.06-21.51.22:896][592]LogTemp: Warning: No footstep sound
+[2021.06.06-21.51.22:912][593]LogTemp: Warning: No footstep sound
+[2021.06.06-21.51.33:260][212]LogTemp: Warning: No footstep sound
+[2021.06.06-21.51.34:612][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-21.51.34:612][291]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Casa
+[2021.06.06-21.51.34:612][291]LogWorld: UWorld::CleanupWorld for Casa, bSessionEnded=true, bCleanupResources=true
+[2021.06.06-21.51.34:614][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-21.51.34:629][291]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.06-21.51.34:666][291]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.06-21.51.34:705][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.06-21.51.34:706][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-21.51.34:709][291]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.06-21.51.34:793][291]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2021.06.06-21.51.34:879][292]LogPlayLevel: Display: Destroying online subsystem :Context_25
