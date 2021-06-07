@@ -4254,3 +4254,91 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.07-04.34.33:273][180]AssetCheck: New page: Asset Save: multiple assets
 [2021.06.07-04.34.33:273][180]LogContentValidation: Display: Validating World /Game/Casa.Casa
 [2021.06.07-04.34.33:273][180]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.07-04.34.52:337][601]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.07-04.34.52:347][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.07-04.34.52:347][601]PIE: New page: PIE session: Casa (Jun 6, 2021, 6:34:52 PM)
+[2021.06.07-04.34.52:376][601]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Casa
+[2021.06.07-04.34.52:422][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046164s)
+[2021.06.07-04.34.52:423][601]LogAIModule: Creating AISystem for world Casa
+[2021.06.07-04.34.52:423][601]LogPlayLevel: PIE: World Init took: (0.001463s)
+[2021.06.07-04.34.52:423][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Casa.Casa to /Game/UEDPIE_0_Casa.Casa (0.047835s)
+[2021.06.07-04.34.52:443][601]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.06.07-04.34.52:444][601]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.06.07-04.34.52:444][601]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.07-04.34.52:444][601]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.07-04.34.52:444][601]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.07-04.34.52:444][601]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.07-04.34.52:444][601]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.07-04.34.52:444][601]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.07-04.34.52:444][601]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.07-04.34.52:444][601]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.07-04.34.52:445][601]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.07-04.34.52:445][601]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.07-04.34.52:451][601]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.07-04.34.52:451][601]LogAudioMixer: Display: 1: FrontRight
+[2021.06.07-04.34.52:467][601]LogAudioMixer: Display: Using Audio Device 2D HD LG TV (NVIDIA High Definition Audio)
+[2021.06.07-04.34.52:468][601]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.07-04.34.52:468][601]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.07-04.34.52:468][601]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.07-04.34.52:469][601]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.07-04.34.52:469][601]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.07-04.34.52:469][601]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.07-04.34.52:496][601]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.07-04.34.52:496][601]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.07-04.34.52:496][601]LogInit: FAudioDevice initialized.
+[2021.06.07-04.34.52:496][601]LogAudio: Display: Audio Device (ID: 5) registered with world 'Casa'.
+[2021.06.07-04.34.52:505][601]LogLoad: Game class is 'GameModeBase'
+[2021.06.07-04.34.52:511][601]LogWorld: Bringing World /Game/UEDPIE_0_Casa.Casa up for play (max tick rate 0) at 2021.06.06-23.34.52
+[2021.06.07-04.34.52:512][601]LogWorld: Bringing up level for play took: 0.005891
+[2021.06.07-04.34.52:512][601]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.06.07-04.34.52:517][601]PIE: Server logged in
+[2021.06.07-04.34.52:518][601]PIE: Play in editor total start time 0.172 seconds.
+[2021.06.07-04.34.55:121][909]LogTemp: Warning: No footstep sound
+[2021.06.07-04.34.55:812][992]LogTemp: Warning: No footstep sound
+[2021.06.07-04.34.56:404][ 63]LogTemp: Warning: No footstep sound
+[2021.06.07-04.34.56:938][127]LogTemp: Warning: No footstep sound
+[2021.06.07-04.34.57:471][191]LogTemp: Warning: No footstep sound
+[2021.06.07-04.34.58:179][276]LogTemp: Warning: No footstep sound
+[2021.06.07-04.34.58:712][340]LogTemp: Warning: No footstep sound
+[2021.06.07-04.34.59:521][437]LogTemp: Warning: No footstep sound
+[2021.06.07-04.35.00:376][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-04.35.00:376][535]LogWorld: BeginTearingDown for /Game/UEDPIE_0_Casa
+[2021.06.07-04.35.00:377][535]LogWorld: UWorld::CleanupWorld for Casa, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-04.35.00:378][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-04.35.00:387][535]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.07-04.35.00:400][535]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-04.35.00:421][535]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.07-04.35.00:421][535]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.07-04.35.00:423][535]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.07-04.35.00:453][535]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.07-04.35.00:481][535]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2021.06.07-04.35.00:517][536]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.06.07-04.35.08:386][380]Cmd: DELETE
+[2021.06.07-04.35.08:386][380]Cmd: ACTOR DELETE
+[2021.06.07-04.35.08:416][380]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2021.06.07-04.35.08:434][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2021.06.07-04.35.08:436][380]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2021.06.07-04.35.08:931][439]Cmd: DELETE
+[2021.06.07-04.35.08:931][439]Cmd: ACTOR DELETE
+[2021.06.07-04.35.08:952][439]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.06.07-04.35.08:953][439]LogEditorActor: Deleted 0 Actors (0.022 secs)
+[2021.06.07-04.35.09:776][534]Cmd: DELETE
+[2021.06.07-04.35.09:776][534]Cmd: ACTOR DELETE
+[2021.06.07-04.35.09:790][534]LogEditorActor: Deleted Actor: SkyLight
+[2021.06.07-04.35.09:807][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2021.06.07-04.35.09:808][534]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2021.06.07-04.35.10:463][610]Cmd: DELETE
+[2021.06.07-04.35.10:463][610]Cmd: ACTOR DELETE
+[2021.06.07-04.35.10:477][610]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2021.06.07-04.35.10:494][610]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.06.07-04.35.10:495][610]LogEditorActor: Deleted 1 Actors (0.032 secs)
+[2021.06.07-04.35.12:374][835]Cmd: TRANSACTION UNDO
+[2021.06.07-04.35.12:374][835]LogEditorTransaction: Undo Delete Actors
+[2021.06.07-04.35.15:046][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.07-04.35.15:063][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2021.06.07-04.35.15:210][ 69]LogSavePackage: Moving '../../../../rv2021-03/ProyectoRV/Saved/Casa543C244A451C6F601175DABCE218FCC0.tmp' to '../../../../rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.07-04.35.15:227][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.07-04.35.15:387][ 69]LogSavePackage: Moving '../../../../rv2021-03/ProyectoRV/Saved/Casa_BuiltData8988049B4E6BB12A91370FAD7BD57450.tmp' to '../../../../rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.07-04.35.15:403][ 69]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-04.35.15:403][ 69]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.07-04.35.15:403][ 69]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
