@@ -803,3 +803,36 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.07-20.55.22:856][324]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
 [2021.06.07-20.55.23:417][352]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
 [2021.06.07-20.55.23:683][366]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.06.07-20.59.01:556][337]LogSlate: Took 0.000687 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.07-20.59.01:583][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.07-20.59.01:590][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2021.06.07-20.59.01:729][337]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/CasaBF8BBA364D8C5CAE8A600689978400CF.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.07-20.59.01:745][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.07-20.59.01:945][337]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa_BuiltData6408BCFF42ECFF9E626D10B7FCBCEFE8.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.07-20.59.01:959][337]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.59.01:959][337]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.07-20.59.01:959][337]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.07-20.59.03:859][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.07-20.59.03:863][401]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.06.07-20.59.03:993][401]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa67480A6B42378680225307A429DF4280.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.07-20.59.04:006][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.07-20.59.04:140][401]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa_BuiltData9E3BD49F4E7EE445890B29B5303F23B9.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.07-20.59.04:160][401]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.59.04:160][401]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.07-20.59.04:160][401]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.07-20.59.07:476][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.07-20.59.07:480][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2021.06.07-20.59.07:629][540]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/CasaD4F2A0BD448EC0CA8923529A6A951192.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.07-20.59.07:641][540]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.07-20.59.07:795][540]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa_BuiltDataFC55F1CA45B5C9A925F4B5BCB269473E.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.07-20.59.07:820][540]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.59.07:820][540]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.07-20.59.07:820][540]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.07-20.59.56:010][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.07-20.59.56:015][924]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2021.06.07-20.59.56:143][924]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa9F3D3ABC4861FA6F2D2BF0BEDE07FBB3.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.07-20.59.56:154][924]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.07-20.59.56:283][924]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa_BuiltData17B5CD8745CE83266D9485B829C06C88.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.07-20.59.56:305][924]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-20.59.56:305][924]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.07-20.59.56:305][924]LogContentValidation: Display: Validating World /Game/Casa.Casa
