@@ -4225,3 +4225,32 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.07-04.32.21:926][953]AssetCheck: New page: Asset Save: multiple assets
 [2021.06.07-04.32.21:926][953]LogContentValidation: Display: Validating World /Game/Casa.Casa
 [2021.06.07-04.32.21:926][953]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.07-04.33.42:857][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2021.06.07-04.33.42:889][751]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Casa.Casa
+[2021.06.07-04.33.42:889][751]Cmd: MAP LOAD FILE="../../../../rv2021-03/ProyectoRV/Content/Casa.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.06.07-04.33.42:889][751]LightingResults: New page: Lighting Build
+[2021.06.07-04.33.42:889][751]LoadErrors: New page: Loading map: Casa.umap
+[2021.06.07-04.33.42:918][751]LogWorld: UWorld::CleanupWorld for Casa, bSessionEnded=true, bCleanupResources=true
+[2021.06.07-04.33.42:918][751]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.07-04.33.42:918][751]MapCheck: New page: Map Check
+[2021.06.07-04.33.42:918][751]LightingResults: New page: Lighting Build
+[2021.06.07-04.33.42:930][751]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.07-04.33.42:937][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2021.06.07-04.33.42:988][751]LogAudio: Display: Audio Device (ID: 1) registered with world 'Casa'.
+[2021.06.07-04.33.42:989][751]LogAIModule: Creating AISystem for world Casa
+[2021.06.07-04.33.43:008][751]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.06.07-04.33.43:027][751]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2021.06.07-04.33.43:041][751]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.06.07-04.33.43:042][751]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.142ms to complete.
+[2021.06.07-04.33.43:042][751]LogFileHelpers: Loading map 'Casa' took 0.152
+[2021.06.07-04.34.08:830][689]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2021.06.07-04.34.10:486][856]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2021.06.07-04.34.19:493][797]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2021.06.07-04.34.32:831][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.07-04.34.32:850][180]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2021.06.07-04.34.33:004][180]LogSavePackage: Moving '../../../../rv2021-03/ProyectoRV/Saved/CasaC9A4F5254973E739A98A9FA1C765FE55.tmp' to '../../../../rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.07-04.34.33:022][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.07-04.34.33:257][180]LogSavePackage: Moving '../../../../rv2021-03/ProyectoRV/Saved/Casa_BuiltData8CF1DFA84720BC2B68ADAA8F0A8F5BBF.tmp' to '../../../../rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.07-04.34.33:273][180]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-04.34.33:273][180]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.07-04.34.33:273][180]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
