@@ -878,3 +878,12 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.07-21.31.12:745][809]AssetCheck: New page: Asset Save: multiple assets
 [2021.06.07-21.31.12:745][809]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
 [2021.06.07-21.31.12:745][809]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.07-22.18.39:083][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.06.07-22.18.39:253][248]LogUObjectHash: Compacting FUObjectHashTables data took  46.11ms
+[2021.06.07-22.18.39:552][248]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/CasaCC0EBB624090A9EBDDCF3BBB85DFB176.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa.umap'
+[2021.06.07-22.18.39:590][248]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Casa_BuiltData" FILE="../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset" SILENT=true
+[2021.06.07-22.18.39:780][248]LogSavePackage: Moving '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Saved/Casa_BuiltData76B3ECB14E0A64C43A38D2B7A8F9EBBB.tmp' to '../../../../../../Users/narut/Documents/Unreal Projects/rv2021-03/ProyectoRV/Content/Casa_BuiltData.uasset'
+[2021.06.07-22.18.39:815][248]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.07-22.18.39:817][248]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Casa_BuiltData.Casa_BuiltData
+[2021.06.07-22.18.39:818][248]LogContentValidation: Display: Validating World /Game/Casa.Casa
+[2021.06.07-22.18.40:542][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
